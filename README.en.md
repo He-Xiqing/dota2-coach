@@ -7,7 +7,7 @@ A real-time Dota 2 coach that runs as an external overlay. It uses only the **of
 no memory reading, no injection, no simulated keystrokes, no game mods.
 
 <p>
-  <a href="https://github.com/OWNER/REPO/actions/workflows/tests.yml"><img alt="tests" src="https://github.com/OWNER/REPO/actions/workflows/tests.yml/badge.svg"></a>
+  <a href="https://github.com/He-Xiqing/dota2-coach/actions/workflows/tests.yml"><img alt="tests" src="https://github.com/He-Xiqing/dota2-coach/actions/workflows/tests.yml/badge.svg"></a>
   <a href="LICENSE"><img alt="license: MIT" src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
   <img alt="platform" src="https://img.shields.io/badge/platform-Windows%2010%2F11-lightgrey">
   <img alt="python" src="https://img.shields.io/badge/python-3.12-3776AB">
@@ -128,7 +128,7 @@ Output: `dist\Dota2Coach\Dota2Coach.exe` (main window) and `dist\Dota2Coach-Card
 
 ## Download
 
-- Portable build (Windows x64): [Releases](https://github.com/OWNER/REPO/releases/latest) — unzip and run `Dota2Coach.exe`
+- Portable build (Windows x64): [Releases](https://github.com/He-Xiqing/dota2-coach/releases/latest) — unzip and run `Dota2Coach.exe`
 - Run from source: see Quick start above
 
 ## Compliance & disclaimer

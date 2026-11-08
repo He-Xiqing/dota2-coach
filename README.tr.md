@@ -7,7 +7,7 @@ Dota 2 için harici overlay olarak çalışan gerçek zamanlı koç. Yalnızca *
 bellek okuma yok, enjeksiyon yok, tuş simülasyonu yok, mod yok.
 
 <p>
-  <a href="https://github.com/OWNER/REPO/actions/workflows/tests.yml"><img alt="tests" src="https://github.com/OWNER/REPO/actions/workflows/tests.yml/badge.svg"></a>
+  <a href="https://github.com/He-Xiqing/dota2-coach/actions/workflows/tests.yml"><img alt="tests" src="https://github.com/He-Xiqing/dota2-coach/actions/workflows/tests.yml/badge.svg"></a>
   <a href="LICENSE"><img alt="license: MIT" src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
   <img alt="platform" src="https://img.shields.io/badge/platform-Windows%2010%2F11-lightgrey">
   <img alt="python" src="https://img.shields.io/badge/python-3.12-3776AB">
@@ -128,7 +128,7 @@ powershell -ExecutionPolicy Bypass -File .\scripts\build.ps1
 
 ## İndirme
 
-- Taşınabilir sürüm (Windows x64): [Releases](https://github.com/OWNER/REPO/releases/latest) — zip'i açıp `Dota2Coach.exe` çalıştırın
+- Taşınabilir sürüm (Windows x64): [Releases](https://github.com/He-Xiqing/dota2-coach/releases/latest) — zip'i açıp `Dota2Coach.exe` çalıştırın
 - Kaynaktan çalıştırma: yukarıdaki Hızlı başlangıç
 
 ## Uyumluluk ve sorumluluk reddi

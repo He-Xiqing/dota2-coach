@@ -7,7 +7,7 @@ Dota 2 即時教練（外部 Overlay）。只靠 **Valve 官方 GSI** 加 **自�
 不讀記憶體、不注入、不模擬按鍵、不需要任何遊戲 Mod。
 
 <p>
-  <a href="https://github.com/OWNER/REPO/actions/workflows/tests.yml"><img alt="tests" src="https://github.com/OWNER/REPO/actions/workflows/tests.yml/badge.svg"></a>
+  <a href="https://github.com/He-Xiqing/dota2-coach/actions/workflows/tests.yml"><img alt="tests" src="https://github.com/He-Xiqing/dota2-coach/actions/workflows/tests.yml/badge.svg"></a>
   <a href="LICENSE"><img alt="license: MIT" src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
   <img alt="platform" src="https://img.shields.io/badge/platform-Windows%2010%2F11-lightgrey">
   <img alt="python" src="https://img.shields.io/badge/python-3.12-3776AB">
@@ -128,7 +128,7 @@ powershell -ExecutionPolicy Bypass -File .\scripts\build.ps1
 
 ## 下載
 
-- 免安裝版（Windows x64）：[Releases](https://github.com/OWNER/REPO/releases/latest) — 下載 zip 解壓後雙擊 `Dota2Coach.exe`
+- 免安裝版（Windows x64）：[Releases](https://github.com/He-Xiqing/dota2-coach/releases/latest) — 下載 zip 解壓後雙擊 `Dota2Coach.exe`
 - 從原始碼執行：見上方「快速開始」
 
 ## 合規與免責

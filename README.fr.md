@@ -7,7 +7,7 @@ Coach Dota 2 en temps réel, en overlay externe. Il utilise uniquement le **GSI 
 aucune lecture mémoire, aucune injection, aucune touche simulée, aucun mod.
 
 <p>
-  <a href="https://github.com/OWNER/REPO/actions/workflows/tests.yml"><img alt="tests" src="https://github.com/OWNER/REPO/actions/workflows/tests.yml/badge.svg"></a>
+  <a href="https://github.com/He-Xiqing/dota2-coach/actions/workflows/tests.yml"><img alt="tests" src="https://github.com/He-Xiqing/dota2-coach/actions/workflows/tests.yml/badge.svg"></a>
   <a href="LICENSE"><img alt="license: MIT" src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
   <img alt="platform" src="https://img.shields.io/badge/platform-Windows%2010%2F11-lightgrey">
   <img alt="python" src="https://img.shields.io/badge/python-3.12-3776AB">
@@ -128,7 +128,7 @@ Sortie : `dist\Dota2Coach\Dota2Coach.exe` (fenêtre) et `dist\Dota2Coach-Card\Do
 
 ## Téléchargement
 
-- Version portable (Windows x64) : [Releases](https://github.com/OWNER/REPO/releases/latest) — décompressez et lancez `Dota2Coach.exe`
+- Version portable (Windows x64) : [Releases](https://github.com/He-Xiqing/dota2-coach/releases/latest) — décompressez et lancez `Dota2Coach.exe`
 - Depuis les sources : voir Démarrage rapide ci-dessus
 
 ## Conformité et avertissement
