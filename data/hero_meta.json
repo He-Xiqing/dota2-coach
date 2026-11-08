@@ -1,0 +1,2401 @@
+{
+ "source": "http://api.opendota.com/api/heroStats",
+ "heroes": {
+  "1": {
+   "name": "npc_dota_hero_antimage",
+   "localized_name": "Anti-Mage",
+   "roles": [
+    "Carry",
+    "Escape",
+    "Nuker"
+   ],
+   "pub_picks": 579837,
+   "pub_wins": 297262,
+   "pub_winrate": 0.5127,
+   "high_picks": 64181,
+   "high_wins": 32701,
+   "high_winrate": 0.5095,
+   "pro_picks": 7,
+   "pro_wins": 4,
+   "pro_winrate": 0.5714
+  },
+  "2": {
+   "name": "npc_dota_hero_axe",
+   "localized_name": "Axe",
+   "roles": [
+    "Initiator",
+    "Durable",
+    "Disabler",
+    "Carry"
+   ],
+   "pub_picks": 581068,
+   "pub_wins": 291605,
+   "pub_winrate": 0.5018,
+   "high_picks": 53259,
+   "high_wins": 25924,
+   "high_winrate": 0.4868,
+   "pro_picks": 6,
+   "pro_wins": 4,
+   "pro_winrate": 0.6667
+  },
+  "3": {
+   "name": "npc_dota_hero_bane",
+   "localized_name": "Bane",
+   "roles": [
+    "Support",
+    "Disabler",
+    "Nuker",
+    "Durable"
+   ],
+   "pub_picks": 88038,
+   "pub_wins": 43017,
+   "pub_winrate": 0.4886,
+   "high_picks": 10489,
+   "high_wins": 5321,
+   "high_winrate": 0.5073,
+   "pro_picks": 2,
+   "pro_wins": 0,
+   "pro_winrate": 0.0
+  },
+  "4": {
+   "name": "npc_dota_hero_bloodseeker",
+   "localized_name": "Bloodseeker",
+   "roles": [
+    "Carry",
+    "Disabler",
+    "Nuker",
+    "Initiator"
+   ],
+   "pub_picks": 136851,
+   "pub_wins": 70698,
+   "pub_winrate": 0.5166,
+   "high_picks": 8455,
+   "high_wins": 4317,
+   "high_winrate": 0.5106,
+   "pro_picks": 1,
+   "pro_wins": 1,
+   "pro_winrate": 1.0
+  },
+  "5": {
+   "name": "npc_dota_hero_crystal_maiden",
+   "localized_name": "Crystal Maiden",
+   "roles": [
+    "Support",
+    "Disabler",
+    "Nuker"
+   ],
+   "pub_picks": 543768,
+   "pub_wins": 280801,
+   "pub_winrate": 0.5164,
+   "high_picks": 47764,
+   "high_wins": 23620,
+   "high_winrate": 0.4945,
+   "pro_picks": 4,
+   "pro_wins": 3,
+   "pro_winrate": 0.75
+  },
+  "6": {
+   "name": "npc_dota_hero_drow_ranger",
+   "localized_name": "Drow Ranger",
+   "roles": [
+    "Carry",
+    "Disabler",
+    "Pusher"
+   ],
+   "pub_picks": 485746,
+   "pub_wins": 224244,
+   "pub_winrate": 0.4616,
+   "high_picks": 36667,
+   "high_wins": 16496,
+   "high_winrate": 0.4499,
+   "pro_picks": 1,
+   "pro_wins": 0,
+   "pro_winrate": 0.0
+  },
+  "7": {
+   "name": "npc_dota_hero_earthshaker",
+   "localized_name": "Earthshaker",
+   "roles": [
+    "Support",
+    "Initiator",
+    "Disabler",
+    "Nuker"
+   ],
+   "pub_picks": 574769,
+   "pub_wins": 290109,
+   "pub_winrate": 0.5047,
+   "high_picks": 66085,
+   "high_wins": 33535,
+   "high_winrate": 0.5075,
+   "pro_picks": 16,
+   "pro_wins": 9,
+   "pro_winrate": 0.5625
+  },
+  "8": {
+   "name": "npc_dota_hero_juggernaut",
+   "localized_name": "Juggernaut",
+   "roles": [
+    "Carry",
+    "Pusher",
+    "Escape"
+   ],
+   "pub_picks": 651462,
+   "pub_wins": 342290,
+   "pub_winrate": 0.5254,
+   "high_picks": 62720,
+   "high_wins": 33081,
+   "high_winrate": 0.5274,
+   "pro_picks": 7,
+   "pro_wins": 4,
+   "pro_winrate": 0.5714
+  },
+  "9": {
+   "name": "npc_dota_hero_mirana",
+   "localized_name": "Mirana",
+   "roles": [
+    "Carry",
+    "Support",
+    "Escape",
+    "Nuker",
+    "Disabler"
+   ],
+   "pub_picks": 356133,
+   "pub_wins": 183372,
+   "pub_winrate": 0.5149,
+   "high_picks": 46664,
+   "high_wins": 23734,
+   "high_winrate": 0.5086,
+   "pro_picks": 12,
+   "pro_wins": 4,
+   "pro_winrate": 0.3333
+  },
+  "10": {
+   "name": "npc_dota_hero_morphling",
+   "localized_name": "Morphling",
+   "roles": [
+    "Carry",
+    "Escape",
+    "Durable",
+    "Nuker",
+    "Disabler"
+   ],
+   "pub_picks": 125300,
+   "pub_wins": 60101,
+   "pub_winrate": 0.4797,
+   "high_picks": 15653,
+   "high_wins": 7579,
+   "high_winrate": 0.4842,
+   "pro_picks": 2,
+   "pro_wins": 1,
+   "pro_winrate": 0.5
+  },
+  "11": {
+   "name": "npc_dota_hero_nevermore",
+   "localized_name": "Shadow Fiend",
+   "roles": [
+    "Carry",
+    "Nuker"
+   ],
+   "pub_picks": 288325,
+   "pub_wins": 124694,
+   "pub_winrate": 0.4325,
+   "high_picks": 19640,
+   "high_wins": 7922,
+   "high_winrate": 0.4034,
+   "pro_picks": 0,
+   "pro_wins": 0,
+   "pro_winrate": 0.0
+  },
+  "12": {
+   "name": "npc_dota_hero_phantom_lancer",
+   "localized_name": "Phantom Lancer",
+   "roles": [
+    "Carry",
+    "Escape",
+    "Pusher",
+    "Nuker"
+   ],
+   "pub_picks": 414037,
+   "pub_wins": 218978,
+   "pub_winrate": 0.5289,
+   "high_picks": 41453,
+   "high_wins": 21766,
+   "high_winrate": 0.5251,
+   "pro_picks": 5,
+   "pro_wins": 2,
+   "pro_winrate": 0.4
+  },
+  "13": {
+   "name": "npc_dota_hero_puck",
+   "localized_name": "Puck",
+   "roles": [
+    "Initiator",
+    "Disabler",
+    "Escape",
+    "Nuker"
+   ],
+   "pub_picks": 96918,
+   "pub_wins": 45453,
+   "pub_winrate": 0.469,
+   "high_picks": 15115,
+   "high_wins": 7455,
+   "high_winrate": 0.4932,
+   "pro_picks": 3,
+   "pro_wins": 1,
+   "pro_winrate": 0.3333
+  },
+  "14": {
+   "name": "npc_dota_hero_pudge",
+   "localized_name": "Pudge",
+   "roles": [
+    "Disabler",
+    "Initiator",
+    "Durable",
+    "Nuker"
+   ],
+   "pub_picks": 960004,
+   "pub_wins": 493258,
+   "pub_winrate": 0.5138,
+   "high_picks": 102255,
+   "high_wins": 51148,
+   "high_winrate": 0.5002,
+   "pro_picks": 12,
+   "pro_wins": 8,
+   "pro_winrate": 0.6667
+  },
+  "15": {
+   "name": "npc_dota_hero_razor",
+   "localized_name": "Razor",
+   "roles": [
+    "Carry",
+    "Durable",
+    "Nuker",
+    "Pusher"
+   ],
+   "pub_picks": 227501,
+   "pub_wins": 114059,
+   "pub_winrate": 0.5014,
+   "high_picks": 20639,
+   "high_wins": 10277,
+   "high_winrate": 0.4979,
+   "pro_picks": 0,
+   "pro_wins": 0,
+   "pro_winrate": 0.0
+  },
+  "16": {
+   "name": "npc_dota_hero_sand_king",
+   "localized_name": "Sand King",
+   "roles": [
+    "Initiator",
+    "Disabler",
+    "Support",
+    "Nuker",
+    "Escape"
+   ],
+   "pub_picks": 149714,
+   "pub_wins": 73774,
+   "pub_winrate": 0.4928,
+   "high_picks": 13628,
+   "high_wins": 6446,
+   "high_winrate": 0.473,
+   "pro_picks": 7,
+   "pro_wins": 2,
+   "pro_winrate": 0.2857
+  },
+  "17": {
+   "name": "npc_dota_hero_storm_spirit",
+   "localized_name": "Storm Spirit",
+   "roles": [
+    "Carry",
+    "Escape",
+    "Nuker",
+    "Initiator",
+    "Disabler"
+   ],
+   "pub_picks": 187779,
+   "pub_wins": 87583,
+   "pub_winrate": 0.4664,
+   "high_picks": 21917,
+   "high_wins": 10242,
+   "high_winrate": 0.4673,
+   "pro_picks": 6,
+   "pro_wins": 3,
+   "pro_winrate": 0.5
+  },
+  "18": {
+   "name": "npc_dota_hero_sven",
+   "localized_name": "Sven",
+   "roles": [
+    "Carry",
+    "Disabler",
+    "Initiator",
+    "Durable",
+    "Nuker"
+   ],
+   "pub_picks": 366760,
+   "pub_wins": 188352,
+   "pub_winrate": 0.5136,
+   "high_picks": 47920,
+   "high_wins": 24950,
+   "high_winrate": 0.5207,
+   "pro_picks": 13,
+   "pro_wins": 5,
+   "pro_winrate": 0.3846
+  },
+  "19": {
+   "name": "npc_dota_hero_tiny",
+   "localized_name": "Tiny",
+   "roles": [
+    "Carry",
+    "Nuker",
+    "Pusher",
+    "Initiator",
+    "Durable",
+    "Disabler"
+   ],
+   "pub_picks": 146020,
+   "pub_wins": 65169,
+   "pub_winrate": 0.4463,
+   "high_picks": 19491,
+   "high_wins": 8793,
+   "high_winrate": 0.4511,
+   "pro_picks": 7,
+   "pro_wins": 3,
+   "pro_winrate": 0.4286
+  },
+  "20": {
+   "name": "npc_dota_hero_vengefulspirit",
+   "localized_name": "Vengeful Spirit",
+   "roles": [
+    "Support",
+    "Initiator",
+    "Disabler",
+    "Nuker",
+    "Escape"
+   ],
+   "pub_picks": 318509,
+   "pub_wins": 166469,
+   "pub_winrate": 0.5227,
+   "high_picks": 24859,
+   "high_wins": 12535,
+   "high_winrate": 0.5042,
+   "pro_picks": 1,
+   "pro_wins": 0,
+   "pro_winrate": 0.0
+  },
+  "21": {
+   "name": "npc_dota_hero_windrunner",
+   "localized_name": "Windranger",
+   "roles": [
+    "Carry",
+    "Support",
+    "Disabler",
+    "Escape",
+    "Nuker"
+   ],
+   "pub_picks": 578816,
+   "pub_wins": 280292,
+   "pub_winrate": 0.4843,
+   "high_picks": 69902,
+   "high_wins": 34241,
+   "high_winrate": 0.4898,
+   "pro_picks": 26,
+   "pro_wins": 11,
+   "pro_winrate": 0.4231
+  },
+  "22": {
+   "name": "npc_dota_hero_zuus",
+   "localized_name": "Zeus",
+   "roles": [
+    "Nuker",
+    "Carry"
+   ],
+   "pub_picks": 458322,
+   "pub_wins": 230029,
+   "pub_winrate": 0.5019,
+   "high_picks": 42268,
+   "high_wins": 20754,
+   "high_winrate": 0.491,
+   "pro_picks": 1,
+   "pro_wins": 0,
+   "pro_winrate": 0.0
+  },
+  "23": {
+   "name": "npc_dota_hero_kunkka",
+   "localized_name": "Kunkka",
+   "roles": [
+    "Carry",
+    "Support",
+    "Disabler",
+    "Initiator",
+    "Durable",
+    "Nuker"
+   ],
+   "pub_picks": 165624,
+   "pub_wins": 81129,
+   "pub_winrate": 0.4898,
+   "high_picks": 16373,
+   "high_wins": 8065,
+   "high_winrate": 0.4926,
+   "pro_picks": 2,
+   "pro_wins": 1,
+   "pro_winrate": 0.5
+  },
+  "25": {
+   "name": "npc_dota_hero_lina",
+   "localized_name": "Lina",
+   "roles": [
+    "Support",
+    "Carry",
+    "Nuker",
+    "Disabler"
+   ],
+   "pub_picks": 472695,
+   "pub_wins": 222140,
+   "pub_winrate": 0.4699,
+   "high_picks": 43812,
+   "high_wins": 20702,
+   "high_winrate": 0.4725,
+   "pro_picks": 6,
+   "pro_wins": 2,
+   "pro_winrate": 0.3333
+  },
+  "26": {
+   "name": "npc_dota_hero_lion",
+   "localized_name": "Lion",
+   "roles": [
+    "Support",
+    "Disabler",
+    "Nuker",
+    "Initiator"
+   ],
+   "pub_picks": 872000,
+   "pub_wins": 423650,
+   "pub_winrate": 0.4858,
+   "high_picks": 81689,
+   "high_wins": 39803,
+   "high_winrate": 0.4873,
+   "pro_picks": 7,
+   "pro_wins": 3,
+   "pro_winrate": 0.4286
+  },
+  "27": {
+   "name": "npc_dota_hero_shadow_shaman",
+   "localized_name": "Shadow Shaman",
+   "roles": [
+    "Support",
+    "Pusher",
+    "Disabler",
+    "Nuker",
+    "Initiator"
+   ],
+   "pub_picks": 537253,
+   "pub_wins": 277785,
+   "pub_winrate": 0.517,
+   "high_picks": 41297,
+   "high_wins": 21136,
+   "high_winrate": 0.5118,
+   "pro_picks": 5,
+   "pro_wins": 4,
+   "pro_winrate": 0.8
+  },
+  "28": {
+   "name": "npc_dota_hero_slardar",
+   "localized_name": "Slardar",
+   "roles": [
+    "Carry",
+    "Durable",
+    "Initiator",
+    "Disabler",
+    "Escape"
+   ],
+   "pub_picks": 221077,
+   "pub_wins": 108876,
+   "pub_winrate": 0.4925,
+   "high_picks": 18968,
+   "high_wins": 9002,
+   "high_winrate": 0.4746,
+   "pro_picks": 5,
+   "pro_wins": 0,
+   "pro_winrate": 0.0
+  },
+  "29": {
+   "name": "npc_dota_hero_tidehunter",
+   "localized_name": "Tidehunter",
+   "roles": [
+    "Initiator",
+    "Durable",
+    "Disabler",
+    "Nuker",
+    "Carry"
+   ],
+   "pub_picks": 390419,
+   "pub_wins": 191727,
+   "pub_winrate": 0.4911,
+   "high_picks": 39744,
+   "high_wins": 18931,
+   "high_winrate": 0.4763,
+   "pro_picks": 7,
+   "pro_wins": 5,
+   "pro_winrate": 0.7143
+  },
+  "30": {
+   "name": "npc_dota_hero_witch_doctor",
+   "localized_name": "Witch Doctor",
+   "roles": [
+    "Support",
+    "Nuker",
+    "Disabler"
+   ],
+   "pub_picks": 634358,
+   "pub_wins": 331290,
+   "pub_winrate": 0.5222,
+   "high_picks": 57038,
+   "high_wins": 28949,
+   "high_winrate": 0.5075,
+   "pro_picks": 25,
+   "pro_wins": 12,
+   "pro_winrate": 0.48
+  },
+  "31": {
+   "name": "npc_dota_hero_lich",
+   "localized_name": "Lich",
+   "roles": [
+    "Support",
+    "Nuker"
+   ],
+   "pub_picks": 380014,
+   "pub_wins": 199420,
+   "pub_winrate": 0.5248,
+   "high_picks": 45715,
+   "high_wins": 23588,
+   "high_winrate": 0.516,
+   "pro_picks": 14,
+   "pro_wins": 6,
+   "pro_winrate": 0.4286
+  },
+  "32": {
+   "name": "npc_dota_hero_riki",
+   "localized_name": "Riki",
+   "roles": [
+    "Carry",
+    "Escape",
+    "Disabler"
+   ],
+   "pub_picks": 217834,
+   "pub_wins": 115382,
+   "pub_winrate": 0.5297,
+   "high_picks": 16376,
+   "high_wins": 8501,
+   "high_winrate": 0.5191,
+   "pro_picks": 3,
+   "pro_wins": 2,
+   "pro_winrate": 0.6667
+  },
+  "33": {
+   "name": "npc_dota_hero_enigma",
+   "localized_name": "Enigma",
+   "roles": [
+    "Disabler",
+    "Initiator",
+    "Pusher"
+   ],
+   "pub_picks": 151665,
+   "pub_wins": 77696,
+   "pub_winrate": 0.5123,
+   "high_picks": 21788,
+   "high_wins": 12174,
+   "high_winrate": 0.5587,
+   "pro_picks": 10,
+   "pro_wins": 5,
+   "pro_winrate": 0.5
+  },
+  "34": {
+   "name": "npc_dota_hero_tinker",
+   "localized_name": "Tinker",
+   "roles": [
+    "Carry",
+    "Nuker",
+    "Pusher"
+   ],
+   "pub_picks": 190886,
+   "pub_wins": 89953,
+   "pub_winrate": 0.4712,
+   "high_picks": 21950,
+   "high_wins": 10934,
+   "high_winrate": 0.4981,
+   "pro_picks": 1,
+   "pro_wins": 0,
+   "pro_winrate": 0.0
+  },
+  "35": {
+   "name": "npc_dota_hero_sniper",
+   "localized_name": "Sniper",
+   "roles": [
+    "Carry",
+    "Nuker"
+   ],
+   "pub_picks": 686239,
+   "pub_wins": 339961,
+   "pub_winrate": 0.4954,
+   "high_picks": 36431,
+   "high_wins": 17143,
+   "high_winrate": 0.4706,
+   "pro_picks": 0,
+   "pro_wins": 0,
+   "pro_winrate": 0.0
+  },
+  "36": {
+   "name": "npc_dota_hero_necrolyte",
+   "localized_name": "Necrophos",
+   "roles": [
+    "Carry",
+    "Nuker",
+    "Durable",
+    "Disabler"
+   ],
+   "pub_picks": 521900,
+   "pub_wins": 265097,
+   "pub_winrate": 0.5079,
+   "high_picks": 51894,
+   "high_wins": 25547,
+   "high_winrate": 0.4923,
+   "pro_picks": 7,
+   "pro_wins": 2,
+   "pro_winrate": 0.2857
+  },
+  "37": {
+   "name": "npc_dota_hero_warlock",
+   "localized_name": "Warlock",
+   "roles": [
+    "Support",
+    "Initiator",
+    "Disabler"
+   ],
+   "pub_picks": 211170,
+   "pub_wins": 105527,
+   "pub_winrate": 0.4997,
+   "high_picks": 16675,
+   "high_wins": 8070,
+   "high_winrate": 0.484,
+   "pro_picks": 3,
+   "pro_wins": 2,
+   "pro_winrate": 0.6667
+  },
+  "38": {
+   "name": "npc_dota_hero_beastmaster",
+   "localized_name": "Beastmaster",
+   "roles": [
+    "Initiator",
+    "Disabler",
+    "Durable",
+    "Nuker"
+   ],
+   "pub_picks": 71307,
+   "pub_wins": 32423,
+   "pub_winrate": 0.4547,
+   "high_picks": 8167,
+   "high_wins": 3936,
+   "high_winrate": 0.4819,
+   "pro_picks": 8,
+   "pro_wins": 2,
+   "pro_winrate": 0.25
+  },
+  "39": {
+   "name": "npc_dota_hero_queenofpain",
+   "localized_name": "Queen of Pain",
+   "roles": [
+    "Carry",
+    "Nuker",
+    "Escape"
+   ],
+   "pub_picks": 297809,
+   "pub_wins": 141001,
+   "pub_winrate": 0.4735,
+   "high_picks": 31703,
+   "high_wins": 14910,
+   "high_winrate": 0.4703,
+   "pro_picks": 3,
+   "pro_wins": 2,
+   "pro_winrate": 0.6667
+  },
+  "40": {
+   "name": "npc_dota_hero_venomancer",
+   "localized_name": "Venomancer",
+   "roles": [
+    "Support",
+    "Nuker",
+    "Initiator",
+    "Pusher",
+    "Disabler"
+   ],
+   "pub_picks": 258170,
+   "pub_wins": 125718,
+   "pub_winrate": 0.487,
+   "high_picks": 18117,
+   "high_wins": 8705,
+   "high_winrate": 0.4805,
+   "pro_picks": 2,
+   "pro_wins": 2,
+   "pro_winrate": 1.0
+  },
+  "41": {
+   "name": "npc_dota_hero_faceless_void",
+   "localized_name": "Faceless Void",
+   "roles": [
+    "Carry",
+    "Initiator",
+    "Disabler",
+    "Escape",
+    "Durable"
+   ],
+   "pub_picks": 269215,
+   "pub_wins": 130199,
+   "pub_winrate": 0.4836,
+   "high_picks": 20561,
+   "high_wins": 10112,
+   "high_winrate": 0.4918,
+   "pro_picks": 0,
+   "pro_wins": 0,
+   "pro_winrate": 0.0
+  },
+  "42": {
+   "name": "npc_dota_hero_skeleton_king",
+   "localized_name": "Wraith King",
+   "roles": [
+    "Carry",
+    "Support",
+    "Durable",
+    "Disabler",
+    "Initiator"
+   ],
+   "pub_picks": 467105,
+   "pub_wins": 257398,
+   "pub_winrate": 0.551,
+   "high_picks": 32849,
+   "high_wins": 17336,
+   "high_winrate": 0.5277,
+   "pro_picks": 2,
+   "pro_wins": 0,
+   "pro_winrate": 0.0
+  },
+  "43": {
+   "name": "npc_dota_hero_death_prophet",
+   "localized_name": "Death Prophet",
+   "roles": [
+    "Carry",
+    "Pusher",
+    "Nuker",
+    "Disabler"
+   ],
+   "pub_picks": 175829,
+   "pub_wins": 85033,
+   "pub_winrate": 0.4836,
+   "high_picks": 19311,
+   "high_wins": 9516,
+   "high_winrate": 0.4928,
+   "pro_picks": 4,
+   "pro_wins": 4,
+   "pro_winrate": 1.0
+  },
+  "44": {
+   "name": "npc_dota_hero_phantom_assassin",
+   "localized_name": "Phantom Assassin",
+   "roles": [
+    "Carry",
+    "Escape"
+   ],
+   "pub_picks": 472835,
+   "pub_wins": 241063,
+   "pub_winrate": 0.5098,
+   "high_picks": 24816,
+   "high_wins": 12318,
+   "high_winrate": 0.4964,
+   "pro_picks": 4,
+   "pro_wins": 2,
+   "pro_winrate": 0.5
+  },
+  "45": {
+   "name": "npc_dota_hero_pugna",
+   "localized_name": "Pugna",
+   "roles": [
+    "Nuker",
+    "Pusher"
+   ],
+   "pub_picks": 158391,
+   "pub_wins": 79794,
+   "pub_winrate": 0.5038,
+   "high_picks": 15907,
+   "high_wins": 8314,
+   "high_winrate": 0.5227,
+   "pro_picks": 3,
+   "pro_wins": 2,
+   "pro_winrate": 0.6667
+  },
+  "46": {
+   "name": "npc_dota_hero_templar_assassin",
+   "localized_name": "Templar Assassin",
+   "roles": [
+    "Carry",
+    "Escape"
+   ],
+   "pub_picks": 173224,
+   "pub_wins": 79206,
+   "pub_winrate": 0.4572,
+   "high_picks": 16433,
+   "high_wins": 7656,
+   "high_winrate": 0.4659,
+   "pro_picks": 2,
+   "pro_wins": 2,
+   "pro_winrate": 1.0
+  },
+  "47": {
+   "name": "npc_dota_hero_viper",
+   "localized_name": "Viper",
+   "roles": [
+    "Carry",
+    "Durable",
+    "Initiator",
+    "Disabler"
+   ],
+   "pub_picks": 282659,
+   "pub_wins": 137136,
+   "pub_winrate": 0.4852,
+   "high_picks": 20795,
+   "high_wins": 10212,
+   "high_winrate": 0.4911,
+   "pro_picks": 4,
+   "pro_wins": 3,
+   "pro_winrate": 0.75
+  },
+  "48": {
+   "name": "npc_dota_hero_luna",
+   "localized_name": "Luna",
+   "roles": [
+    "Carry",
+    "Nuker",
+    "Pusher"
+   ],
+   "pub_picks": 411132,
+   "pub_wins": 208126,
+   "pub_winrate": 0.5062,
+   "high_picks": 55527,
+   "high_wins": 27670,
+   "high_winrate": 0.4983,
+   "pro_picks": 5,
+   "pro_wins": 3,
+   "pro_winrate": 0.6
+  },
+  "49": {
+   "name": "npc_dota_hero_dragon_knight",
+   "localized_name": "Dragon Knight",
+   "roles": [
+    "Carry",
+    "Pusher",
+    "Durable",
+    "Disabler",
+    "Initiator",
+    "Nuker"
+   ],
+   "pub_picks": 497540,
+   "pub_wins": 262576,
+   "pub_winrate": 0.5277,
+   "high_picks": 72244,
+   "high_wins": 37829,
+   "high_winrate": 0.5236,
+   "pro_picks": 15,
+   "pro_wins": 8,
+   "pro_winrate": 0.5333
+  },
+  "50": {
+   "name": "npc_dota_hero_dazzle",
+   "localized_name": "Dazzle",
+   "roles": [
+    "Support",
+    "Nuker",
+    "Disabler"
+   ],
+   "pub_picks": 191622,
+   "pub_wins": 97852,
+   "pub_winrate": 0.5107,
+   "high_picks": 21533,
+   "high_wins": 11227,
+   "high_winrate": 0.5214,
+   "pro_picks": 15,
+   "pro_wins": 9,
+   "pro_winrate": 0.6
+  },
+  "51": {
+   "name": "npc_dota_hero_rattletrap",
+   "localized_name": "Clockwerk",
+   "roles": [
+    "Initiator",
+    "Disabler",
+    "Durable",
+    "Nuker"
+   ],
+   "pub_picks": 84946,
+   "pub_wins": 40660,
+   "pub_winrate": 0.4787,
+   "high_picks": 11245,
+   "high_wins": 5469,
+   "high_winrate": 0.4863,
+   "pro_picks": 9,
+   "pro_wins": 4,
+   "pro_winrate": 0.4444
+  },
+  "52": {
+   "name": "npc_dota_hero_leshrac",
+   "localized_name": "Leshrac",
+   "roles": [
+    "Carry",
+    "Support",
+    "Nuker",
+    "Pusher",
+    "Disabler"
+   ],
+   "pub_picks": 81385,
+   "pub_wins": 41820,
+   "pub_winrate": 0.5139,
+   "high_picks": 12243,
+   "high_wins": 6486,
+   "high_winrate": 0.5298,
+   "pro_picks": 4,
+   "pro_wins": 3,
+   "pro_winrate": 0.75
+  },
+  "53": {
+   "name": "npc_dota_hero_furion",
+   "localized_name": "Nature's Prophet",
+   "roles": [
+    "Carry",
+    "Pusher",
+    "Escape",
+    "Nuker"
+   ],
+   "pub_picks": 306818,
+   "pub_wins": 132571,
+   "pub_winrate": 0.4321,
+   "high_picks": 30254,
+   "high_wins": 13539,
+   "high_winrate": 0.4475,
+   "pro_picks": 16,
+   "pro_wins": 4,
+   "pro_winrate": 0.25
+  },
+  "54": {
+   "name": "npc_dota_hero_life_stealer",
+   "localized_name": "Lifestealer",
+   "roles": [
+    "Carry",
+    "Durable",
+    "Escape",
+    "Disabler"
+   ],
+   "pub_picks": 460603,
+   "pub_wins": 236404,
+   "pub_winrate": 0.5132,
+   "high_picks": 53399,
+   "high_wins": 27412,
+   "high_winrate": 0.5133,
+   "pro_picks": 4,
+   "pro_wins": 2,
+   "pro_winrate": 0.5
+  },
+  "55": {
+   "name": "npc_dota_hero_dark_seer",
+   "localized_name": "Dark Seer",
+   "roles": [
+    "Initiator",
+    "Escape",
+    "Disabler"
+   ],
+   "pub_picks": 127781,
+   "pub_wins": 63298,
+   "pub_winrate": 0.4954,
+   "high_picks": 23990,
+   "high_wins": 12215,
+   "high_winrate": 0.5092,
+   "pro_picks": 2,
+   "pro_wins": 0,
+   "pro_winrate": 0.0
+  },
+  "56": {
+   "name": "npc_dota_hero_clinkz",
+   "localized_name": "Clinkz",
+   "roles": [
+    "Carry",
+    "Escape",
+    "Pusher"
+   ],
+   "pub_picks": 162293,
+   "pub_wins": 81041,
+   "pub_winrate": 0.4993,
+   "high_picks": 13424,
+   "high_wins": 6817,
+   "high_winrate": 0.5078,
+   "pro_picks": 4,
+   "pro_wins": 3,
+   "pro_winrate": 0.75
+  },
+  "57": {
+   "name": "npc_dota_hero_omniknight",
+   "localized_name": "Omniknight",
+   "roles": [
+    "Support",
+    "Durable",
+    "Nuker"
+   ],
+   "pub_picks": 75332,
+   "pub_wins": 38485,
+   "pub_winrate": 0.5109,
+   "high_picks": 8206,
+   "high_wins": 4361,
+   "high_winrate": 0.5314,
+   "pro_picks": 0,
+   "pro_wins": 0,
+   "pro_winrate": 0.0
+  },
+  "58": {
+   "name": "npc_dota_hero_enchantress",
+   "localized_name": "Enchantress",
+   "roles": [
+    "Support",
+    "Pusher",
+    "Durable",
+    "Disabler"
+   ],
+   "pub_picks": 84646,
+   "pub_wins": 40551,
+   "pub_winrate": 0.4791,
+   "high_picks": 8786,
+   "high_wins": 4200,
+   "high_winrate": 0.478,
+   "pro_picks": 2,
+   "pro_wins": 0,
+   "pro_winrate": 0.0
+  },
+  "59": {
+   "name": "npc_dota_hero_huskar",
+   "localized_name": "Huskar",
+   "roles": [
+    "Carry",
+    "Durable",
+    "Initiator"
+   ],
+   "pub_picks": 145994,
+   "pub_wins": 66370,
+   "pub_winrate": 0.4546,
+   "high_picks": 14673,
+   "high_wins": 6833,
+   "high_winrate": 0.4657,
+   "pro_picks": 2,
+   "pro_wins": 1,
+   "pro_winrate": 0.5
+  },
+  "60": {
+   "name": "npc_dota_hero_night_stalker",
+   "localized_name": "Night Stalker",
+   "roles": [
+    "Carry",
+    "Initiator",
+    "Durable",
+    "Disabler",
+    "Nuker"
+   ],
+   "pub_picks": 250245,
+   "pub_wins": 129855,
+   "pub_winrate": 0.5189,
+   "high_picks": 36967,
+   "high_wins": 19669,
+   "high_winrate": 0.5321,
+   "pro_picks": 4,
+   "pro_wins": 4,
+   "pro_winrate": 1.0
+  },
+  "61": {
+   "name": "npc_dota_hero_broodmother",
+   "localized_name": "Broodmother",
+   "roles": [
+    "Carry",
+    "Pusher",
+    "Escape",
+    "Nuker"
+   ],
+   "pub_picks": 76964,
+   "pub_wins": 38413,
+   "pub_winrate": 0.4991,
+   "high_picks": 5112,
+   "high_wins": 2616,
+   "high_winrate": 0.5117,
+   "pro_picks": 1,
+   "pro_wins": 0,
+   "pro_winrate": 0.0
+  },
+  "62": {
+   "name": "npc_dota_hero_bounty_hunter",
+   "localized_name": "Bounty Hunter",
+   "roles": [
+    "Escape",
+    "Nuker"
+   ],
+   "pub_picks": 223287,
+   "pub_wins": 116207,
+   "pub_winrate": 0.5204,
+   "high_picks": 34955,
+   "high_wins": 19155,
+   "high_winrate": 0.548,
+   "pro_picks": 7,
+   "pro_wins": 5,
+   "pro_winrate": 0.7143
+  },
+  "63": {
+   "name": "npc_dota_hero_weaver",
+   "localized_name": "Weaver",
+   "roles": [
+    "Carry",
+    "Escape"
+   ],
+   "pub_picks": 191602,
+   "pub_wins": 90928,
+   "pub_winrate": 0.4746,
+   "high_picks": 16105,
+   "high_wins": 7597,
+   "high_winrate": 0.4717,
+   "pro_picks": 1,
+   "pro_wins": 0,
+   "pro_winrate": 0.0
+  },
+  "64": {
+   "name": "npc_dota_hero_jakiro",
+   "localized_name": "Jakiro",
+   "roles": [
+    "Support",
+    "Nuker",
+    "Pusher",
+    "Disabler"
+   ],
+   "pub_picks": 275064,
+   "pub_wins": 133489,
+   "pub_winrate": 0.4853,
+   "high_picks": 20133,
+   "high_wins": 9361,
+   "high_winrate": 0.465,
+   "pro_picks": 0,
+   "pro_wins": 0,
+   "pro_winrate": 0.0
+  },
+  "65": {
+   "name": "npc_dota_hero_batrider",
+   "localized_name": "Batrider",
+   "roles": [
+    "Initiator",
+    "Disabler",
+    "Escape"
+   ],
+   "pub_picks": 34575,
+   "pub_wins": 15402,
+   "pub_winrate": 0.4455,
+   "high_picks": 4092,
+   "high_wins": 1931,
+   "high_winrate": 0.4719,
+   "pro_picks": 2,
+   "pro_wins": 2,
+   "pro_winrate": 1.0
+  },
+  "66": {
+   "name": "npc_dota_hero_chen",
+   "localized_name": "Chen",
+   "roles": [
+    "Support",
+    "Pusher"
+   ],
+   "pub_picks": 16435,
+   "pub_wins": 7365,
+   "pub_winrate": 0.4481,
+   "high_picks": 1928,
+   "high_wins": 939,
+   "high_winrate": 0.487,
+   "pro_picks": 0,
+   "pro_wins": 0,
+   "pro_winrate": 0.0
+  },
+  "67": {
+   "name": "npc_dota_hero_spectre",
+   "localized_name": "Spectre",
+   "roles": [
+    "Carry",
+    "Durable",
+    "Escape"
+   ],
+   "pub_picks": 324746,
+   "pub_wins": 172316,
+   "pub_winrate": 0.5306,
+   "high_picks": 25670,
+   "high_wins": 13437,
+   "high_winrate": 0.5235,
+   "pro_picks": 0,
+   "pro_wins": 0,
+   "pro_winrate": 0.0
+  },
+  "68": {
+   "name": "npc_dota_hero_ancient_apparition",
+   "localized_name": "Ancient Apparition",
+   "roles": [
+    "Support",
+    "Disabler",
+    "Nuker"
+   ],
+   "pub_picks": 266820,
+   "pub_wins": 136792,
+   "pub_winrate": 0.5127,
+   "high_picks": 21742,
+   "high_wins": 10708,
+   "high_winrate": 0.4925,
+   "pro_picks": 1,
+   "pro_wins": 0,
+   "pro_winrate": 0.0
+  },
+  "69": {
+   "name": "npc_dota_hero_doom_bringer",
+   "localized_name": "Doom",
+   "roles": [
+    "Carry",
+    "Disabler",
+    "Initiator",
+    "Durable",
+    "Nuker"
+   ],
+   "pub_picks": 195375,
+   "pub_wins": 94103,
+   "pub_winrate": 0.4817,
+   "high_picks": 32105,
+   "high_wins": 16180,
+   "high_winrate": 0.504,
+   "pro_picks": 10,
+   "pro_wins": 4,
+   "pro_winrate": 0.4
+  },
+  "70": {
+   "name": "npc_dota_hero_ursa",
+   "localized_name": "Ursa",
+   "roles": [
+    "Carry",
+    "Durable",
+    "Disabler"
+   ],
+   "pub_picks": 255705,
+   "pub_wins": 124971,
+   "pub_winrate": 0.4887,
+   "high_picks": 29932,
+   "high_wins": 14986,
+   "high_winrate": 0.5007,
+   "pro_picks": 4,
+   "pro_wins": 2,
+   "pro_winrate": 0.5
+  },
+  "71": {
+   "name": "npc_dota_hero_spirit_breaker",
+   "localized_name": "Spirit Breaker",
+   "roles": [
+    "Carry",
+    "Initiator",
+    "Disabler",
+    "Durable",
+    "Escape"
+   ],
+   "pub_picks": 598504,
+   "pub_wins": 311751,
+   "pub_winrate": 0.5209,
+   "high_picks": 64188,
+   "high_wins": 33707,
+   "high_winrate": 0.5251,
+   "pro_picks": 7,
+   "pro_wins": 4,
+   "pro_winrate": 0.5714
+  },
+  "72": {
+   "name": "npc_dota_hero_gyrocopter",
+   "localized_name": "Gyrocopter",
+   "roles": [
+    "Carry",
+    "Nuker",
+    "Disabler"
+   ],
+   "pub_picks": 155073,
+   "pub_wins": 72792,
+   "pub_winrate": 0.4694,
+   "high_picks": 19149,
+   "high_wins": 8899,
+   "high_winrate": 0.4647,
+   "pro_picks": 7,
+   "pro_wins": 1,
+   "pro_winrate": 0.1429
+  },
+  "73": {
+   "name": "npc_dota_hero_alchemist",
+   "localized_name": "Alchemist",
+   "roles": [
+    "Carry",
+    "Support",
+    "Durable",
+    "Disabler",
+    "Initiator",
+    "Nuker"
+   ],
+   "pub_picks": 103285,
+   "pub_wins": 48504,
+   "pub_winrate": 0.4696,
+   "high_picks": 7683,
+   "high_wins": 3528,
+   "high_winrate": 0.4592,
+   "pro_picks": 1,
+   "pro_wins": 0,
+   "pro_winrate": 0.0
+  },
+  "74": {
+   "name": "npc_dota_hero_invoker",
+   "localized_name": "Invoker",
+   "roles": [
+    "Carry",
+    "Nuker",
+    "Disabler",
+    "Escape",
+    "Pusher"
+   ],
+   "pub_picks": 627521,
+   "pub_wins": 319444,
+   "pub_winrate": 0.5091,
+   "high_picks": 78478,
+   "high_wins": 40821,
+   "high_winrate": 0.5202,
+   "pro_picks": 5,
+   "pro_wins": 4,
+   "pro_winrate": 0.8
+  },
+  "75": {
+   "name": "npc_dota_hero_silencer",
+   "localized_name": "Silencer",
+   "roles": [
+    "Carry",
+    "Support",
+    "Disabler",
+    "Initiator",
+    "Nuker"
+   ],
+   "pub_picks": 360575,
+   "pub_wins": 182149,
+   "pub_winrate": 0.5052,
+   "high_picks": 29419,
+   "high_wins": 14517,
+   "high_winrate": 0.4935,
+   "pro_picks": 1,
+   "pro_wins": 1,
+   "pro_winrate": 1.0
+  },
+  "76": {
+   "name": "npc_dota_hero_obsidian_destroyer",
+   "localized_name": "Outworld Devourer",
+   "roles": [
+    "Carry",
+    "Nuker",
+    "Disabler"
+   ],
+   "pub_picks": 445490,
+   "pub_wins": 236605,
+   "pub_winrate": 0.5311,
+   "high_picks": 60289,
+   "high_wins": 32335,
+   "high_winrate": 0.5363,
+   "pro_picks": 12,
+   "pro_wins": 8,
+   "pro_winrate": 0.6667
+  },
+  "77": {
+   "name": "npc_dota_hero_lycan",
+   "localized_name": "Lycan",
+   "roles": [
+    "Carry",
+    "Pusher",
+    "Durable",
+    "Escape"
+   ],
+   "pub_picks": 46442,
+   "pub_wins": 22622,
+   "pub_winrate": 0.4871,
+   "high_picks": 6586,
+   "high_wins": 3442,
+   "high_winrate": 0.5226,
+   "pro_picks": 9,
+   "pro_wins": 5,
+   "pro_winrate": 0.5556
+  },
+  "78": {
+   "name": "npc_dota_hero_brewmaster",
+   "localized_name": "Brewmaster",
+   "roles": [
+    "Carry",
+    "Initiator",
+    "Durable",
+    "Disabler",
+    "Nuker"
+   ],
+   "pub_picks": 73341,
+   "pub_wins": 37331,
+   "pub_winrate": 0.509,
+   "high_picks": 14123,
+   "high_wins": 7263,
+   "high_winrate": 0.5143,
+   "pro_picks": 11,
+   "pro_wins": 7,
+   "pro_winrate": 0.6364
+  },
+  "79": {
+   "name": "npc_dota_hero_shadow_demon",
+   "localized_name": "Shadow Demon",
+   "roles": [
+    "Support",
+    "Disabler",
+    "Initiator",
+    "Nuker"
+   ],
+   "pub_picks": 69983,
+   "pub_wins": 30822,
+   "pub_winrate": 0.4404,
+   "high_picks": 9119,
+   "high_wins": 4307,
+   "high_winrate": 0.4723,
+   "pro_picks": 1,
+   "pro_wins": 0,
+   "pro_winrate": 0.0
+  },
+  "80": {
+   "name": "npc_dota_hero_lone_druid",
+   "localized_name": "Lone Druid",
+   "roles": [
+    "Carry",
+    "Pusher",
+    "Durable"
+   ],
+   "pub_picks": 99781,
+   "pub_wins": 49198,
+   "pub_winrate": 0.4931,
+   "high_picks": 11445,
+   "high_wins": 5778,
+   "high_winrate": 0.5048,
+   "pro_picks": 8,
+   "pro_wins": 4,
+   "pro_winrate": 0.5
+  },
+  "81": {
+   "name": "npc_dota_hero_chaos_knight",
+   "localized_name": "Chaos Knight",
+   "roles": [
+    "Carry",
+    "Disabler",
+    "Durable",
+    "Pusher",
+    "Initiator"
+   ],
+   "pub_picks": 149328,
+   "pub_wins": 76742,
+   "pub_winrate": 0.5139,
+   "high_picks": 7734,
+   "high_wins": 3907,
+   "high_winrate": 0.5052,
+   "pro_picks": 0,
+   "pro_wins": 0,
+   "pro_winrate": 0.0
+  },
+  "82": {
+   "name": "npc_dota_hero_meepo",
+   "localized_name": "Meepo",
+   "roles": [
+    "Carry",
+    "Escape",
+    "Nuker",
+    "Disabler",
+    "Initiator",
+    "Pusher"
+   ],
+   "pub_picks": 72795,
+   "pub_wins": 39038,
+   "pub_winrate": 0.5363,
+   "high_picks": 7257,
+   "high_wins": 4061,
+   "high_winrate": 0.5596,
+   "pro_picks": 0,
+   "pro_wins": 0,
+   "pro_winrate": 0.0
+  },
+  "83": {
+   "name": "npc_dota_hero_treant",
+   "localized_name": "Treant Protector",
+   "roles": [
+    "Support",
+    "Initiator",
+    "Durable",
+    "Disabler",
+    "Escape"
+   ],
+   "pub_picks": 63766,
+   "pub_wins": 29047,
+   "pub_winrate": 0.4555,
+   "high_picks": 4629,
+   "high_wins": 2166,
+   "high_winrate": 0.4679,
+   "pro_picks": 0,
+   "pro_wins": 0,
+   "pro_winrate": 0.0
+  },
+  "84": {
+   "name": "npc_dota_hero_ogre_magi",
+   "localized_name": "Ogre Magi",
+   "roles": [
+    "Support",
+    "Nuker",
+    "Disabler",
+    "Durable",
+    "Initiator"
+   ],
+   "pub_picks": 611931,
+   "pub_wins": 307908,
+   "pub_winrate": 0.5032,
+   "high_picks": 41558,
+   "high_wins": 20270,
+   "high_winrate": 0.4878,
+   "pro_picks": 1,
+   "pro_wins": 0,
+   "pro_winrate": 0.0
+  },
+  "85": {
+   "name": "npc_dota_hero_undying",
+   "localized_name": "Undying",
+   "roles": [
+    "Support",
+    "Durable",
+    "Disabler",
+    "Nuker"
+   ],
+   "pub_picks": 382071,
+   "pub_wins": 190418,
+   "pub_winrate": 0.4984,
+   "high_picks": 35447,
+   "high_wins": 17306,
+   "high_winrate": 0.4882,
+   "pro_picks": 0,
+   "pro_wins": 0,
+   "pro_winrate": 0.0
+  },
+  "86": {
+   "name": "npc_dota_hero_rubick",
+   "localized_name": "Rubick",
+   "roles": [
+    "Support",
+    "Disabler",
+    "Nuker"
+   ],
+   "pub_picks": 702426,
+   "pub_wins": 347284,
+   "pub_winrate": 0.4944,
+   "high_picks": 98976,
+   "high_wins": 49121,
+   "high_winrate": 0.4963,
+   "pro_picks": 15,
+   "pro_wins": 3,
+   "pro_winrate": 0.2
+  },
+  "87": {
+   "name": "npc_dota_hero_disruptor",
+   "localized_name": "Disruptor",
+   "roles": [
+    "Support",
+    "Disabler",
+    "Nuker",
+    "Initiator"
+   ],
+   "pub_picks": 283749,
+   "pub_wins": 143302,
+   "pub_winrate": 0.505,
+   "high_picks": 41760,
+   "high_wins": 21331,
+   "high_winrate": 0.5108,
+   "pro_picks": 5,
+   "pro_wins": 3,
+   "pro_winrate": 0.6
+  },
+  "88": {
+   "name": "npc_dota_hero_nyx_assassin",
+   "localized_name": "Nyx Assassin",
+   "roles": [
+    "Disabler",
+    "Nuker",
+    "Initiator",
+    "Escape"
+   ],
+   "pub_picks": 350707,
+   "pub_wins": 184784,
+   "pub_winrate": 0.5269,
+   "high_picks": 47705,
+   "high_wins": 25591,
+   "high_winrate": 0.5364,
+   "pro_picks": 5,
+   "pro_wins": 2,
+   "pro_winrate": 0.4
+  },
+  "89": {
+   "name": "npc_dota_hero_naga_siren",
+   "localized_name": "Naga Siren",
+   "roles": [
+    "Carry",
+    "Support",
+    "Pusher",
+    "Disabler",
+    "Initiator",
+    "Escape"
+   ],
+   "pub_picks": 50562,
+   "pub_wins": 24659,
+   "pub_winrate": 0.4877,
+   "high_picks": 3082,
+   "high_wins": 1502,
+   "high_winrate": 0.4873,
+   "pro_picks": 5,
+   "pro_wins": 3,
+   "pro_winrate": 0.6
+  },
+  "90": {
+   "name": "npc_dota_hero_keeper_of_the_light",
+   "localized_name": "Keeper of the Light",
+   "roles": [
+    "Support",
+    "Nuker",
+    "Disabler"
+   ],
+   "pub_picks": 146055,
+   "pub_wins": 71822,
+   "pub_winrate": 0.4917,
+   "high_picks": 16508,
+   "high_wins": 8499,
+   "high_winrate": 0.5148,
+   "pro_picks": 9,
+   "pro_wins": 6,
+   "pro_winrate": 0.6667
+  },
+  "91": {
+   "name": "npc_dota_hero_wisp",
+   "localized_name": "Io",
+   "roles": [
+    "Support",
+    "Escape",
+    "Nuker"
+   ],
+   "pub_picks": 143600,
+   "pub_wins": 71489,
+   "pub_winrate": 0.4978,
+   "high_picks": 20418,
+   "high_wins": 10474,
+   "high_winrate": 0.513,
+   "pro_picks": 5,
+   "pro_wins": 4,
+   "pro_winrate": 0.8
+  },
+  "92": {
+   "name": "npc_dota_hero_visage",
+   "localized_name": "Visage",
+   "roles": [
+    "Support",
+    "Nuker",
+    "Durable",
+    "Disabler",
+    "Pusher"
+   ],
+   "pub_picks": 56930,
+   "pub_wins": 30270,
+   "pub_winrate": 0.5317,
+   "high_picks": 8343,
+   "high_wins": 4672,
+   "high_winrate": 0.56,
+   "pro_picks": 0,
+   "pro_wins": 0,
+   "pro_winrate": 0.0
+  },
+  "93": {
+   "name": "npc_dota_hero_slark",
+   "localized_name": "Slark",
+   "roles": [
+    "Carry",
+    "Escape",
+    "Disabler",
+    "Nuker"
+   ],
+   "pub_picks": 482417,
+   "pub_wins": 240217,
+   "pub_winrate": 0.4979,
+   "high_picks": 63953,
+   "high_wins": 32176,
+   "high_winrate": 0.5031,
+   "pro_picks": 13,
+   "pro_wins": 7,
+   "pro_winrate": 0.5385
+  },
+  "94": {
+   "name": "npc_dota_hero_medusa",
+   "localized_name": "Medusa",
+   "roles": [
+    "Carry",
+    "Disabler",
+    "Durable"
+   ],
+   "pub_picks": 92402,
+   "pub_wins": 45497,
+   "pub_winrate": 0.4924,
+   "high_picks": 6114,
+   "high_wins": 2853,
+   "high_winrate": 0.4666,
+   "pro_picks": 0,
+   "pro_wins": 0,
+   "pro_winrate": 0.0
+  },
+  "95": {
+   "name": "npc_dota_hero_troll_warlord",
+   "localized_name": "Troll Warlord",
+   "roles": [
+    "Carry",
+    "Pusher",
+    "Disabler",
+    "Durable"
+   ],
+   "pub_picks": 101631,
+   "pub_wins": 52755,
+   "pub_winrate": 0.5191,
+   "high_picks": 7333,
+   "high_wins": 3811,
+   "high_winrate": 0.5197,
+   "pro_picks": 0,
+   "pro_wins": 0,
+   "pro_winrate": 0.0
+  },
+  "96": {
+   "name": "npc_dota_hero_centaur",
+   "localized_name": "Centaur Warrunner",
+   "roles": [
+    "Durable",
+    "Initiator",
+    "Disabler",
+    "Nuker",
+    "Escape"
+   ],
+   "pub_picks": 181226,
+   "pub_wins": 89984,
+   "pub_winrate": 0.4965,
+   "high_picks": 16007,
+   "high_wins": 7719,
+   "high_winrate": 0.4822,
+   "pro_picks": 2,
+   "pro_wins": 2,
+   "pro_winrate": 1.0
+  },
+  "97": {
+   "name": "npc_dota_hero_magnataur",
+   "localized_name": "Magnus",
+   "roles": [
+    "Initiator",
+    "Disabler",
+    "Nuker",
+    "Escape"
+   ],
+   "pub_picks": 399555,
+   "pub_wins": 196120,
+   "pub_winrate": 0.4908,
+   "high_picks": 54297,
+   "high_wins": 27088,
+   "high_winrate": 0.4989,
+   "pro_picks": 2,
+   "pro_wins": 0,
+   "pro_winrate": 0.0
+  },
+  "98": {
+   "name": "npc_dota_hero_shredder",
+   "localized_name": "Timbersaw",
+   "roles": [
+    "Nuker",
+    "Durable",
+    "Escape"
+   ],
+   "pub_picks": 224923,
+   "pub_wins": 102184,
+   "pub_winrate": 0.4543,
+   "high_picks": 34110,
+   "high_wins": 15467,
+   "high_winrate": 0.4534,
+   "pro_picks": 13,
+   "pro_wins": 7,
+   "pro_winrate": 0.5385
+  },
+  "99": {
+   "name": "npc_dota_hero_bristleback",
+   "localized_name": "Bristleback",
+   "roles": [
+    "Carry",
+    "Durable",
+    "Initiator",
+    "Nuker"
+   ],
+   "pub_picks": 224739,
+   "pub_wins": 109689,
+   "pub_winrate": 0.4881,
+   "high_picks": 9362,
+   "high_wins": 4222,
+   "high_winrate": 0.451,
+   "pro_picks": 1,
+   "pro_wins": 0,
+   "pro_winrate": 0.0
+  },
+  "100": {
+   "name": "npc_dota_hero_tusk",
+   "localized_name": "Tusk",
+   "roles": [
+    "Initiator",
+    "Disabler",
+    "Nuker"
+   ],
+   "pub_picks": 158228,
+   "pub_wins": 75653,
+   "pub_winrate": 0.4781,
+   "high_picks": 26415,
+   "high_wins": 12937,
+   "high_winrate": 0.4898,
+   "pro_picks": 3,
+   "pro_wins": 2,
+   "pro_winrate": 0.6667
+  },
+  "101": {
+   "name": "npc_dota_hero_skywrath_mage",
+   "localized_name": "Skywrath Mage",
+   "roles": [
+    "Support",
+    "Nuker",
+    "Disabler"
+   ],
+   "pub_picks": 416970,
+   "pub_wins": 208013,
+   "pub_winrate": 0.4989,
+   "high_picks": 35949,
+   "high_wins": 17439,
+   "high_winrate": 0.4851,
+   "pro_picks": 3,
+   "pro_wins": 1,
+   "pro_winrate": 0.3333
+  },
+  "102": {
+   "name": "npc_dota_hero_abaddon",
+   "localized_name": "Abaddon",
+   "roles": [
+    "Support",
+    "Carry",
+    "Durable"
+   ],
+   "pub_picks": 106029,
+   "pub_wins": 54375,
+   "pub_winrate": 0.5128,
+   "high_picks": 9231,
+   "high_wins": 4586,
+   "high_winrate": 0.4968,
+   "pro_picks": 0,
+   "pro_wins": 0,
+   "pro_winrate": 0.0
+  },
+  "103": {
+   "name": "npc_dota_hero_elder_titan",
+   "localized_name": "Elder Titan",
+   "roles": [
+    "Initiator",
+    "Disabler",
+    "Nuker",
+    "Durable"
+   ],
+   "pub_picks": 31063,
+   "pub_wins": 15550,
+   "pub_winrate": 0.5006,
+   "high_picks": 4057,
+   "high_wins": 2107,
+   "high_winrate": 0.5193,
+   "pro_picks": 0,
+   "pro_wins": 0,
+   "pro_winrate": 0.0
+  },
+  "104": {
+   "name": "npc_dota_hero_legion_commander",
+   "localized_name": "Legion Commander",
+   "roles": [
+    "Carry",
+    "Disabler",
+    "Initiator",
+    "Durable",
+    "Nuker"
+   ],
+   "pub_picks": 534805,
+   "pub_wins": 281638,
+   "pub_winrate": 0.5266,
+   "high_picks": 43792,
+   "high_wins": 22475,
+   "high_winrate": 0.5132,
+   "pro_picks": 1,
+   "pro_wins": 0,
+   "pro_winrate": 0.0
+  },
+  "105": {
+   "name": "npc_dota_hero_techies",
+   "localized_name": "Techies",
+   "roles": [
+    "Nuker",
+    "Disabler"
+   ],
+   "pub_picks": 512584,
+   "pub_wins": 261040,
+   "pub_winrate": 0.5093,
+   "high_picks": 58813,
+   "high_wins": 29847,
+   "high_winrate": 0.5075,
+   "pro_picks": 19,
+   "pro_wins": 10,
+   "pro_winrate": 0.5263
+  },
+  "106": {
+   "name": "npc_dota_hero_ember_spirit",
+   "localized_name": "Ember Spirit",
+   "roles": [
+    "Carry",
+    "Escape",
+    "Nuker",
+    "Disabler",
+    "Initiator"
+   ],
+   "pub_picks": 210078,
+   "pub_wins": 101937,
+   "pub_winrate": 0.4852,
+   "high_picks": 35146,
+   "high_wins": 17462,
+   "high_winrate": 0.4968,
+   "pro_picks": 13,
+   "pro_wins": 7,
+   "pro_winrate": 0.5385
+  },
+  "107": {
+   "name": "npc_dota_hero_earth_spirit",
+   "localized_name": "Earth Spirit",
+   "roles": [
+    "Nuker",
+    "Escape",
+    "Disabler",
+    "Initiator",
+    "Durable"
+   ],
+   "pub_picks": 129016,
+   "pub_wins": 63648,
+   "pub_winrate": 0.4933,
+   "high_picks": 23431,
+   "high_wins": 11873,
+   "high_winrate": 0.5067,
+   "pro_picks": 12,
+   "pro_wins": 4,
+   "pro_winrate": 0.3333
+  },
+  "108": {
+   "name": "npc_dota_hero_abyssal_underlord",
+   "localized_name": "Underlord",
+   "roles": [
+    "Support",
+    "Nuker",
+    "Disabler",
+    "Durable",
+    "Escape"
+   ],
+   "pub_picks": 168677,
+   "pub_wins": 81388,
+   "pub_winrate": 0.4825,
+   "high_picks": 14900,
+   "high_wins": 6882,
+   "high_winrate": 0.4619,
+   "pro_picks": 1,
+   "pro_wins": 0,
+   "pro_winrate": 0.0
+  },
+  "109": {
+   "name": "npc_dota_hero_terrorblade",
+   "localized_name": "Terrorblade",
+   "roles": [
+    "Carry",
+    "Pusher",
+    "Nuker"
+   ],
+   "pub_picks": 125187,
+   "pub_wins": 56351,
+   "pub_winrate": 0.4501,
+   "high_picks": 15854,
+   "high_wins": 7306,
+   "high_winrate": 0.4608,
+   "pro_picks": 6,
+   "pro_wins": 5,
+   "pro_winrate": 0.8333
+  },
+  "110": {
+   "name": "npc_dota_hero_phoenix",
+   "localized_name": "Phoenix",
+   "roles": [
+    "Support",
+    "Nuker",
+    "Initiator",
+    "Escape",
+    "Disabler"
+   ],
+   "pub_picks": 174320,
+   "pub_wins": 90560,
+   "pub_winrate": 0.5195,
+   "high_picks": 27198,
+   "high_wins": 14126,
+   "high_winrate": 0.5194,
+   "pro_picks": 0,
+   "pro_wins": 0,
+   "pro_winrate": 0.0
+  },
+  "111": {
+   "name": "npc_dota_hero_oracle",
+   "localized_name": "Oracle",
+   "roles": [
+    "Support",
+    "Nuker",
+    "Disabler",
+    "Escape"
+   ],
+   "pub_picks": 135910,
+   "pub_wins": 67842,
+   "pub_winrate": 0.4992,
+   "high_picks": 19605,
+   "high_wins": 10130,
+   "high_winrate": 0.5167,
+   "pro_picks": 2,
+   "pro_wins": 1,
+   "pro_winrate": 0.5
+  },
+  "112": {
+   "name": "npc_dota_hero_winter_wyvern",
+   "localized_name": "Winter Wyvern",
+   "roles": [
+    "Support",
+    "Disabler",
+    "Nuker"
+   ],
+   "pub_picks": 207534,
+   "pub_wins": 102977,
+   "pub_winrate": 0.4962,
+   "high_picks": 35443,
+   "high_wins": 18207,
+   "high_winrate": 0.5137,
+   "pro_picks": 11,
+   "pro_wins": 5,
+   "pro_winrate": 0.4545
+  },
+  "113": {
+   "name": "npc_dota_hero_arc_warden",
+   "localized_name": "Arc Warden",
+   "roles": [
+    "Carry",
+    "Escape",
+    "Nuker"
+   ],
+   "pub_picks": 171456,
+   "pub_wins": 89436,
+   "pub_winrate": 0.5216,
+   "high_picks": 15826,
+   "high_wins": 8330,
+   "high_winrate": 0.5263,
+   "pro_picks": 0,
+   "pro_wins": 0,
+   "pro_winrate": 0.0
+  },
+  "114": {
+   "name": "npc_dota_hero_monkey_king",
+   "localized_name": "Monkey King",
+   "roles": [
+    "Carry",
+    "Escape",
+    "Disabler",
+    "Initiator"
+   ],
+   "pub_picks": 177728,
+   "pub_wins": 80980,
+   "pub_winrate": 0.4556,
+   "high_picks": 18646,
+   "high_wins": 8637,
+   "high_winrate": 0.4632,
+   "pro_picks": 1,
+   "pro_wins": 0,
+   "pro_winrate": 0.0
+  },
+  "119": {
+   "name": "npc_dota_hero_dark_willow",
+   "localized_name": "Dark Willow",
+   "roles": [
+    "Support",
+    "Nuker",
+    "Disabler",
+    "Escape"
+   ],
+   "pub_picks": 259993,
+   "pub_wins": 127045,
+   "pub_winrate": 0.4886,
+   "high_picks": 38896,
+   "high_wins": 19756,
+   "high_winrate": 0.5079,
+   "pro_picks": 26,
+   "pro_wins": 15,
+   "pro_winrate": 0.5769
+  },
+  "120": {
+   "name": "npc_dota_hero_pangolier",
+   "localized_name": "Pangolier",
+   "roles": [
+    "Carry",
+    "Nuker",
+    "Disabler",
+    "Durable",
+    "Escape",
+    "Initiator"
+   ],
+   "pub_picks": 113497,
+   "pub_wins": 52174,
+   "pub_winrate": 0.4597,
+   "high_picks": 22404,
+   "high_wins": 10447,
+   "high_winrate": 0.4663,
+   "pro_picks": 15,
+   "pro_wins": 6,
+   "pro_winrate": 0.4
+  },
+  "121": {
+   "name": "npc_dota_hero_grimstroke",
+   "localized_name": "Grimstroke",
+   "roles": [
+    "Support",
+    "Nuker",
+    "Disabler",
+    "Escape"
+   ],
+   "pub_picks": 255382,
+   "pub_wins": 132752,
+   "pub_winrate": 0.5198,
+   "high_picks": 37084,
+   "high_wins": 19407,
+   "high_winrate": 0.5233,
+   "pro_picks": 8,
+   "pro_wins": 5,
+   "pro_winrate": 0.625
+  },
+  "123": {
+   "name": "npc_dota_hero_hoodwink",
+   "localized_name": "Hoodwink",
+   "roles": [
+    "Support",
+    "Nuker",
+    "Escape",
+    "Disabler"
+   ],
+   "pub_picks": 383569,
+   "pub_wins": 181166,
+   "pub_winrate": 0.4723,
+   "high_picks": 46858,
+   "high_wins": 22286,
+   "high_winrate": 0.4756,
+   "pro_picks": 19,
+   "pro_wins": 11,
+   "pro_winrate": 0.5789
+  },
+  "126": {
+   "name": "npc_dota_hero_void_spirit",
+   "localized_name": "Void Spirit",
+   "roles": [
+    "Carry",
+    "Escape",
+    "Nuker",
+    "Disabler"
+   ],
+   "pub_picks": 126794,
+   "pub_wins": 62514,
+   "pub_winrate": 0.493,
+   "high_picks": 19295,
+   "high_wins": 9469,
+   "high_winrate": 0.4907,
+   "pro_picks": 1,
+   "pro_wins": 0,
+   "pro_winrate": 0.0
+  },
+  "128": {
+   "name": "npc_dota_hero_snapfire",
+   "localized_name": "Snapfire",
+   "roles": [
+    "Support",
+    "Nuker",
+    "Disabler",
+    "Escape"
+   ],
+   "pub_picks": 318174,
+   "pub_wins": 156256,
+   "pub_winrate": 0.4911,
+   "high_picks": 45159,
+   "high_wins": 22183,
+   "high_winrate": 0.4912,
+   "pro_picks": 5,
+   "pro_wins": 4,
+   "pro_winrate": 0.8
+  },
+  "129": {
+   "name": "npc_dota_hero_mars",
+   "localized_name": "Mars",
+   "roles": [
+    "Carry",
+    "Initiator",
+    "Disabler",
+    "Durable"
+   ],
+   "pub_picks": 144672,
+   "pub_wins": 68669,
+   "pub_winrate": 0.4747,
+   "high_picks": 21550,
+   "high_wins": 10221,
+   "high_winrate": 0.4743,
+   "pro_picks": 2,
+   "pro_wins": 2,
+   "pro_winrate": 1.0
+  },
+  "131": {
+   "name": "npc_dota_hero_ringmaster",
+   "localized_name": "Ring Master",
+   "roles": [
+    "Support",
+    "Nuker",
+    "Escape",
+    "Disabler"
+   ],
+   "pub_picks": 161539,
+   "pub_wins": 78416,
+   "pub_winrate": 0.4854,
+   "high_picks": 26559,
+   "high_wins": 13197,
+   "high_winrate": 0.4969,
+   "pro_picks": 3,
+   "pro_wins": 3,
+   "pro_winrate": 1.0
+  },
+  "135": {
+   "name": "npc_dota_hero_dawnbreaker",
+   "localized_name": "Dawnbreaker",
+   "roles": [
+    "Carry",
+    "Durable"
+   ],
+   "pub_picks": 303469,
+   "pub_wins": 158366,
+   "pub_winrate": 0.5219,
+   "high_picks": 46721,
+   "high_wins": 24394,
+   "high_winrate": 0.5221,
+   "pro_picks": 4,
+   "pro_wins": 1,
+   "pro_winrate": 0.25
+  },
+  "136": {
+   "name": "npc_dota_hero_marci",
+   "localized_name": "Marci",
+   "roles": [
+    "Support",
+    "Carry",
+    "Initiator",
+    "Disabler",
+    "Escape"
+   ],
+   "pub_picks": 160038,
+   "pub_wins": 79222,
+   "pub_winrate": 0.495,
+   "high_picks": 17388,
+   "high_wins": 8763,
+   "high_winrate": 0.504,
+   "pro_picks": 2,
+   "pro_wins": 1,
+   "pro_winrate": 0.5
+  },
+  "137": {
+   "name": "npc_dota_hero_primal_beast",
+   "localized_name": "Primal Beast",
+   "roles": [
+    "Initiator",
+    "Durable",
+    "Disabler"
+   ],
+   "pub_picks": 118667,
+   "pub_wins": 58809,
+   "pub_winrate": 0.4956,
+   "high_picks": 16938,
+   "high_wins": 8727,
+   "high_winrate": 0.5152,
+   "pro_picks": 12,
+   "pro_wins": 6,
+   "pro_winrate": 0.5
+  },
+  "138": {
+   "name": "npc_dota_hero_muerta",
+   "localized_name": "Muerta",
+   "roles": [
+    "Carry",
+    "Nuker",
+    "Disabler"
+   ],
+   "pub_picks": 92705,
+   "pub_wins": 44202,
+   "pub_winrate": 0.4768,
+   "high_picks": 8986,
+   "high_wins": 4291,
+   "high_winrate": 0.4775,
+   "pro_picks": 0,
+   "pro_wins": 0,
+   "pro_winrate": 0.0
+  },
+  "145": {
+   "name": "npc_dota_hero_kez",
+   "localized_name": "Kez",
+   "roles": [
+    "Carry",
+    "Escape",
+    "Disabler"
+   ],
+   "pub_picks": 137775,
+   "pub_wins": 62206,
+   "pub_winrate": 0.4515,
+   "high_picks": 19298,
+   "high_wins": 8751,
+   "high_winrate": 0.4535,
+   "pro_picks": 12,
+   "pro_wins": 7,
+   "pro_winrate": 0.5833
+  },
+  "155": {
+   "name": "npc_dota_hero_largo",
+   "localized_name": "Largo",
+   "roles": [
+    "Durable",
+    "Disabler",
+    "Support"
+   ],
+   "pub_picks": 57565,
+   "pub_wins": 27824,
+   "pub_winrate": 0.4833,
+   "high_picks": 10095,
+   "high_wins": 5050,
+   "high_winrate": 0.5002,
+   "pro_picks": 7,
+   "pro_wins": 1,
+   "pro_winrate": 0.1429
+  }
+ }
+}

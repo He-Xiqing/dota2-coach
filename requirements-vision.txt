@@ -1,0 +1,7 @@
+# 截屏与图像识别（M1 起使用）
+numpy>=1.26
+opencv-python>=4.9
+Pillow>=10.3
+mss>=9.0
+# 可选：DXGI 桌面复制抓帧，比 mss 快且能排除自身窗口；装不上会自动回退 mss
+# bettercam>=1.0

@@ -1,0 +1,99 @@
+{
+  "provider": {
+    "name": "Dota 2",
+    "appid": 570,
+    "version": 48,
+    "timestamp": 1762500000
+  },
+  "map": {
+    "name": "dota",
+    "matchid": "7890123456",
+    "game_time": 312,
+    "clock_time": 312,
+    "day": true,
+    "nightstalker_night": false,
+    "radiant_score": 9,
+    "dire_score": 7,
+    "game_state": "DOTA_GAMERULES_STATE_GAME_IN_PROGRESS",
+    "win_team": "none",
+    "customgamename": "",
+    "ward_purchase_cooldown": 0
+  },
+  "player": {
+    "steamid": "76561198000000000",
+    "accountid": "39734327",
+    "name": "test player",
+    "activity": "playing",
+    "kills": 4,
+    "deaths": 1,
+    "assists": 5,
+    "last_hits": 88,
+    "denies": 6,
+    "gold": 812,
+    "gold_reliable": 120,
+    "gold_unreliable": 692,
+    "gpm": 430,
+    "xpm": 512,
+    "net_worth": 4200,
+    "level": 9,
+    "team_name": "radiant",
+    "player_slot": 0
+  },
+  "hero": {
+    "id": 11,
+    "name": "npc_dota_hero_nevermore",
+    "level": 9,
+    "xp": 5200,
+    "alive": true,
+    "health": 820,
+    "max_health": 1240,
+    "health_percent": 66.1,
+    "mana": 210,
+    "max_mana": 350,
+    "mana_percent": 60.0,
+    "silenced": false,
+    "stunned": false,
+    "disarmed": false,
+    "magicimmune": false,
+    "hexed": false,
+    "muted": false,
+    "break": false,
+    "has_debuff": false,
+    "respawn_seconds": 0,
+    "buyback_cost": 500,
+    "buyback_cooldown": 0
+  },
+  "abilities": {
+    "ability0": {"name": "nevermore_shadowraze1", "level": 4, "can_cast": true, "passive": false, "cooldown": 0, "cooldown_max": 9.0},
+    "ability1": {"name": "nevermore_necromastery", "level": 4, "can_cast": false, "passive": true, "cooldown": 0, "cooldown_max": 0},
+    "ability2": {"name": "nevermore_dark_lord", "level": 1, "can_cast": false, "passive": true, "cooldown": 0, "cooldown_max": 0},
+    "ability3": {"name": "nevermore_requiem", "level": 2, "can_cast": true, "passive": false, "cooldown": 0, "cooldown_max": 120.0},
+    "ability4": {"name": "", "level": 0}
+  },
+  "items": {
+    "item0": {"name": "item_power_treads", "purchased": true, "cooldown": 0, "cooldown_max": 0, "charges": 0},
+    "item1": {"name": "item_magic_wand", "purchased": true, "cooldown": 0, "cooldown_max": 0, "charges": 2},
+    "item2": {"name": "item_black_king_bar", "purchased": true, "cooldown": 0, "cooldown_max": 80, "charges": 0},
+    "item3": {"name": "item_bottle", "purchased": true, "cooldown": 0, "cooldown_max": 0, "charges": 3},
+    "item4": {"name": "", "purchased": false, "cooldown": 0, "cooldown_max": 0, "charges": 0},
+    "neutral0": {"name": "item_occult_bracelet", "purchased": true, "cooldown": 0, "cooldown_max": 0, "charges": 0},
+    "stash0": {"name": "item_tpscroll", "purchased": true, "cooldown": 0, "cooldown_max": 0, "charges": 1}
+  },
+  "buildings": {
+    "radiant": {
+      "dota_goodguys_tower1_top": {"health": 1300, "max_health": 1800}
+    },
+    "dire": {
+      "dota_badguys_tower1_bot": {"health": 1800, "max_health": 1800}
+    }
+  },
+  "game": {
+    "duration": 312,
+    "minutes": 5,
+    "seconds": 12,
+    "player_team": "radiant",
+    "team_name": "radiant",
+    "negative_buffs": []
+  },
+  "events": []
+}

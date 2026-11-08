@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+
+# 运行产物
+logs/
+tests/_tmp/
+
+# 本地密钥
+.env
+
+# 本机配置（含个人路径）；仓库只带 config.example.toml
+config.toml
+
+# Valve 素材：体积大且版权归 Valve，按 README 第 3 步下载
+data/hero_cards/
+data/hero_icons/
+data/*_schinese.txt
+data/_items_raw.json
+
+# 编辑器
+.vscode/
+.idea/
+
+# PyInstaller 生成
+*.spec
+.tmp/

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<title>Oyun içi item sırası nasıl kullanılır · DOTA2 Coach</title>
+<style>
+  body { margin: 0; background: #f6f7f9; color: #1f2328;
+         font-family: "Microsoft YaHei UI", "Microsoft YaHei", "Segoe UI", sans-serif; }
+  main { max-width: 760px; margin: 32px auto; background: #fff; border-radius: 12px;
+         padding: 28px 32px 36px; box-shadow: 0 1px 3px rgba(0,0,0,.06); }
+  h1 { font-size: 24px; margin: 0 0 6px; }
+  .sub { color: #6b7280; font-size: 13px; margin-bottom: 22px; }
+  h2 { font-size: 17px; margin: 24px 0 8px; }
+  p, li { font-size: 14px; line-height: 1.9; }
+  ol, ul { padding-left: 22px; }
+  code { background: #f1f3f5; padding: 1px 6px; border-radius: 4px; font-size: 13px; }
+  .tip { background: #eef4ff; border-left: 3px solid #2f6fed; padding: 10px 14px;
+         border-radius: 6px; font-size: 13px; line-height: 1.8; margin: 16px 0; }
+  .foot { color: #6b7280; font-size: 12px; margin-top: 26px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Oyun içi “item sırası” nasıl kullanılır</h1>
+  <div class="sub">Karttaki “Sıradaki item / Sonrası” ile eşleşir; burada oyunda nasıl okunacağı ve sırayla nasıl alınacağı anlatılır.</div>
+
+  <h2>1. Mağazayı aç</h2>
+  <p>Oyunda <code>F3</code> tuşuna bas (veya sağ alttaki mağaza simgesine tıkla). Mağazanın üstünde <strong>Rehber</strong> ve <strong>Önerilen</strong> sekmeleri var.</p>
+
+  <h2>2. Önerilen sırayı oku</h2>
+  <ol>
+    <li><strong>Rehber</strong> sekmesini aç: solda güncel yamanın popüler dizilişleri listelenir.</li>
+    <li>Bazı dizilişlerde <strong>1 → 2 → 3</strong> vardır: bu sırayla al ve önce ilk itemi tamamla.</li>
+    <li>Numara yoksa <strong>Önerilen</strong> sekmesindeki ızgara soldan sağa öncelik sırasıdır.</li>
+  </ol>
+
+  <div class="tip">Kart her seferinde yalnızca <strong>bir</strong> item önerir (gerekçe, kullanım ve yetenek sırası ile). Aldıktan sonra bir sonraki yenilemede sıradaki iteme geçer — uzun dizilişin adımlara bölünmüş hali.</div>
+
+  <h2>3. Sıralamamız nereden geliyor</h2>
+  <ul>
+    <li>Önce Bilibili rehberlerinden çıkarılan dizilişler (Ayarlar → Yardımcı, sayı ve güncelleme tarihini gösterir).</li>
+    <li>Rehber verisi yoksa OpenDota’nın güncel popüler itemlerine döneriz.</li>
+    <li>Kahramanına göre filtreleriz: kendi dispeli olan kahramana Manta önerilmez, BKB varsa kontrol itemi önerileri kesilir.</li>
+  </ul>
+
+  <h2>4. İpuçları</h2>
+  <ul>
+    <li><code>Ctrl</code> + sol tık ile itemi hızlıca alıp kahramana gönderirsin.</li>
+    <li>Başlangıçta önce Sarf Malzemeleri’nden tango/salve al, sonra ilk küçük itemi yap.</li>
+    <li>Tehdit değişirse karttaki gerekçeyle karşı iteme geç (ör. çok sessizleştirme → BKB/Manta).</li>
+  </ul>
+
+  <p class="foot">Bu sayfa yamalar arasında değişebilir; farklıysa istemcideki Rehber/Önerilen sekmelerini esas al.</p>
+</main>
+</body>
+</html>

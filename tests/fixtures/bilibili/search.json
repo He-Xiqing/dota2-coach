@@ -1,0 +1,33 @@
+{
+  "code": 0,
+  "data": {
+    "result": [
+      {
+        "type": "video",
+        "bvid": "BV1qZjxz4ETT",
+        "aid": 1122334455,
+        "title": "<em class=\"keyword\">7.41</em> 版本上分英雄推荐",
+        "author": "就是锐Ray",
+        "play": 544729,
+        "danmaku": 3201,
+        "pubdate": 1762233348,
+        "duration": "14:32",
+        "description": "7.41 改动后最稳的三个上分英雄，先出装再谈操作。",
+        "tag": "DOTA2,7.41,上分"
+      },
+      {
+        "type": "video",
+        "bvid": "BV1bad0ld0ld",
+        "aid": 998877,
+        "title": "7.40 老版本回顾",
+        "author": "old",
+        "play": 999999,
+        "danmaku": 10,
+        "pubdate": 1700000000,
+        "duration": "20:00",
+        "description": "旧版本",
+        "tag": "DOTA2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,2357 @@
+{
+ "patch": "7.41f",
+ "generated_at": "2026-11-08T11:32:33+08:00",
+ "llm": true,
+ "asr": "off",
+ "videos": {},
+ "tips": [
+  {
+   "hero": "legion_commander",
+   "lane": "任意",
+   "phase": "中期",
+   "text": "别出刃甲，改出连击刀",
+   "why": "视频主张放弃刃甲，连击刀更实用",
+   "sources": [
+    "BV1Tnh76rE2p"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "69ccb0ac"
+  },
+  {
+   "hero": "legion_commander",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "线上把对面打走才算优势",
+   "why": "热评强调军团吃队友，线上压制是胜负关键",
+   "sources": [
+    "BV1Tnh76rE2p"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "03d35457"
+  },
+  {
+   "hero": "legion_commander",
+   "lane": "任意",
+   "phase": "后期",
+   "text": "靠被动吸血增强打持续输出",
+   "why": "热评称被动吸血堪比撒旦，刀刀烈火",
+   "sources": [
+    "BV1Tnh76rE2p"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "b9e637bd"
+  },
+  {
+   "hero": "undying",
+   "lane": "上",
+   "phase": "对线期",
+   "text": "一级学墓碑压火猫补刀",
+   "why": "三号位尸王靠墓碑对线压制火猫发育",
+   "sources": [
+    "BV1qctg68EFN"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "b86243b6"
+  },
+  {
+   "hero": "undying",
+   "lane": "上",
+   "phase": "对线期",
+   "text": "先出魂戒保证墓碑蓝量",
+   "why": "魂戒让尸王能反复用墓碑压线",
+   "sources": [
+    "BV1qctg68EFN"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "dd361c06"
+  },
+  {
+   "hero": "juggernaut",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "一级学剑刃风暴，压线换血",
+   "why": "剑刃风暴前期伤害高，能压制近战对手",
+   "sources": [
+    "BV1bZxu61EX3"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "2f081fac"
+  },
+  {
+   "hero": "juggernaut",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "先出相位鞋，再补小魔棒",
+   "why": "相位鞋提升移速和追击能力，小魔棒保命",
+   "sources": [
+    "BV1bZxu61EX3"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "94c8fac5"
+  },
+  {
+   "hero": "shredder",
+   "lane": "上",
+   "phase": "对线期",
+   "text": "一级学活性护甲，先苟到二级再换血",
+   "why": "伐木机一级缺蓝缺伤害，叠满护甲前换血吃亏",
+   "sources": [
+    "BV19vT76oE3f"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "a296b46f"
+  },
+  {
+   "hero": "shredder",
+   "lane": "上",
+   "phase": "对线期",
+   "text": "先出魂戒或秘法，别裸大件",
+   "why": "热评指出该英雄非常缺蓝，续航优先",
+   "sources": [
+    "BV19vT76oE3f"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "26ad63af"
+  },
+  {
+   "hero": "keeper_of_the_light",
+   "lane": "中",
+   "phase": "对线期",
+   "text": "一级学查克拉魔法，压线推兵",
+   "why": "热评提到公式化发育路线，光法靠查克拉魔法快速清线升等级",
+   "sources": [
+    "BV1Zntn64EYB"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "79a18017"
+  },
+  {
+   "hero": "keeper_of_the_light",
+   "lane": "中",
+   "phase": "对线期",
+   "text": "先出魔瓶，保证续航和控符",
+   "why": "中单光法需要频繁施法，魔瓶是标准小件",
+   "sources": [
+    "BV1Zntn64EYB"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "222f4e0c"
+  },
+  {
+   "hero": "omniknight",
+   "lane": "上",
+   "phase": "对线期",
+   "text": "一级学洗礼，压近战大哥换血",
+   "why": "热评提到远程大哥难打，近战对线靠洗礼换血建立优势",
+   "sources": [
+    "BV1JwjH6uEZk"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "d46774eb"
+  },
+  {
+   "hero": "omniknight",
+   "lane": "上",
+   "phase": "对线期",
+   "text": "三级前别越线，等洗礼二级再压",
+   "why": "弹幕指出素材是炸鱼局，正常对线需稳到技能等级起来",
+   "sources": [
+    "BV1JwjH6uEZk"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "2e2ec2a2"
+  },
+  {
+   "hero": "beastmaster",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "一级学野性之斧压线推兵",
+   "why": "用斧头清兵同时消耗对手，建立线权",
+   "sources": [
+    "BV17v9EBSEz2"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "f4f5802b"
+  },
+  {
+   "hero": "beastmaster",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "三级前以补刀为主别越线",
+   "why": "兽王前期身板一般，越线容易被抓",
+   "sources": [
+    "BV17v9EBSEz2"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "a23db42e"
+  },
+  {
+   "hero": "skeleton_king",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "一级学骷髅兵压线补刀",
+   "why": "利用召唤物在对线期建立补刀优势",
+   "sources": [
+    "BV1FQph6EEbF"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "3058d6e3"
+  },
+  {
+   "hero": "skeleton_king",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "先出臂章再补跳刀",
+   "why": "臂章提供续航和爆发，是核心首件",
+   "sources": [
+    "BV1FQph6EEbF"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "7f263a90"
+  },
+  {
+   "hero": "phoenix",
+   "lane": "中",
+   "phase": "对线期",
+   "text": "一级学消逝之光贴脸压人",
+   "why": "热评称消逝之光一级就敢贴两人脸，前期压制力强",
+   "sources": [
+    "BV111oKBNECe"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "d213e692"
+  },
+  {
+   "hero": "phoenix",
+   "lane": "中",
+   "phase": "对线期",
+   "text": "先出双护腕再草鞋",
+   "why": "公式出装省流版明确双护腕起手",
+   "sources": [
+    "BV111oKBNECe"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "b5bf4635"
+  },
+  {
+   "hero": "riki",
+   "lane": "中",
+   "phase": "对线期",
+   "text": "一级学烟雾，压人别苟",
+   "why": "烟雾沉默加闪避，一级换血强",
+   "sources": [
+    "BV1spjm6DEy4"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "b38de1ab"
+  },
+  {
+   "hero": "riki",
+   "lane": "中",
+   "phase": "对线期",
+   "text": "出门属性装拉满，别裸鞋",
+   "why": "中单力丸对线靠属性撑血量和补刀",
+   "sources": [
+    "BV1spjm6DEy4"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "2bc76fb9"
+  },
+  {
+   "hero": "centaur",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "一级学反伤，站兵线后苟住补刀",
+   "why": "人马前期力量低、线上弱，硬拼换血吃亏，先保发育",
+   "sources": [
+    "BV1Uj3t6sEZV"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "34f1efd5"
+  },
+  {
+   "hero": "centaur",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "先出三护腕撑属性再考虑支配",
+   "why": "过渡装优先三护腕，撑住对线期血量与抗压",
+   "sources": [
+    "BV1Uj3t6sEZV"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "57091b1c"
+  },
+  {
+   "hero": "rattletrap",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "一级学弹幕压台球，逼对面不敢补刀",
+   "why": "弹幕CD短伤害高，能持续消耗并干扰补刀",
+   "sources": [
+    "BV1GXG16mEKD"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "34238af2"
+  },
+  {
+   "hero": "rattletrap",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "弹幕CD一转好就推台球消耗",
+   "why": "高频弹幕是发条对线主要压制手段",
+   "sources": [
+    "BV1GXG16mEKD"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "e9b7d3d5"
+  },
+  {
+   "hero": "huskar",
+   "lane": "中",
+   "phase": "对线期",
+   "text": "一级学火矛压血线，别急着越线",
+   "why": "火矛叠加伤害高，一级对拼强但越线易被小兵集火",
+   "sources": [
+    "BV14zdRB6E1a"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "70316461"
+  },
+  {
+   "hero": "huskar",
+   "lane": "中",
+   "phase": "对线期",
+   "text": "先出护腕撑属性，再补魔杖",
+   "why": "无臂章流派靠属性撑血，护腕性价比高",
+   "sources": [
+    "BV14zdRB6E1a"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "de5206ac"
+  },
+  {
+   "hero": "life_stealer",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "一级学盛宴，贴脸压人别怂",
+   "why": "盛宴前期换血强，主动贴脸能压制对手",
+   "sources": [
+    "BV16gXpBbEPT"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "e34d02db"
+  },
+  {
+   "hero": "life_stealer",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "先出小魔棒再补鞋，别裸大件",
+   "why": "对线续航优先，小件保证换血不亏",
+   "sources": [
+    "BV16gXpBbEPT"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "98e1f21d"
+  },
+  {
+   "hero": "templar_assassin",
+   "lane": "中",
+   "phase": "对线期",
+   "text": "一级学折光，先手压血换补刀",
+   "why": "折光提供抵挡与伤害，一级换血不亏",
+   "sources": [
+    "BV1UVuV6VELG"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "50a3bcd3"
+  },
+  {
+   "hero": "templar_assassin",
+   "lane": "中",
+   "phase": "对线期",
+   "text": "三级前别越线，靠折光补刀",
+   "why": "自身保命弱，越线容易被抓",
+   "sources": [
+    "BV1UVuV6VELG"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "e0e38a81"
+  },
+  {
+   "hero": "earth_spirit",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "一级学三技能拉石头压人",
+   "why": "热评指出拉石头有沉默和伤害，对线期用三技能拉石头换血收益高",
+   "sources": [
+    "BV1GoER6tEME"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "816b7bc5"
+  },
+  {
+   "hero": "earth_spirit",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "鼠标点空地拉石头别点队友",
+   "why": "弹幕提示点队友会误拉队友，点空地只拉石头避免坑人",
+   "sources": [
+    "BV1GoER6tEME"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "594e8a70"
+  },
+  {
+   "hero": "skywrath_mage",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "一级学一技能压血线",
+   "why": "手长锁头，一级就能消耗对手",
+   "sources": [
+    "BV1AeRMBeEeZ"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "8fed12a9"
+  },
+  {
+   "hero": "skywrath_mage",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "先出挂件堆蓝量",
+   "why": "热评指出堆回蓝蓝量即可",
+   "sources": [
+    "BV1AeRMBeEeZ"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "af3a7f59"
+  },
+  {
+   "hero": "grimstroke",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "一技能别乱放，先确认能命中再丢",
+   "why": "热评指出乱放一技能打不出伤害还会打乱兵线",
+   "sources": [
+    "BV19CEt6HEqq"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "c1ddc90e"
+  },
+  {
+   "hero": "grimstroke",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "别用一技能抢大哥的兵线",
+   "why": "热评强调会破坏大哥吃线节奏",
+   "sources": [
+    "BV19CEt6HEqq"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "486a173b"
+  },
+  {
+   "hero": "arc_warden",
+   "lane": "中",
+   "phase": "对线期",
+   "text": "一级学磁场，靠克隆压线补刀",
+   "why": "热评指出电狗靠信息差，克隆骚扰能建立对线优势",
+   "sources": [
+    "BV16he16EEfo"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "67314056"
+  },
+  {
+   "hero": "arc_warden",
+   "lane": "中",
+   "phase": "对线期",
+   "text": "别主动换血，等对方越线再反打",
+   "why": "电狗怕冲脸，对线期应保持距离避免被贴身",
+   "sources": [
+    "BV16he16EEfo"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "47057f26"
+  },
+  {
+   "hero": "abyssal_underlord",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "一级学火雨压线推兵",
+   "why": "火雨清兵快，一级就能压住对面近战",
+   "sources": [
+    "BV1eTuB6sEZZ"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "b5859afe"
+  },
+  {
+   "hero": "abyssal_underlord",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "先出魂戒再相位",
+   "why": "魂戒解决蓝量，相位补移速和护甲",
+   "sources": [
+    "BV1eTuB6sEZZ"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "415d5acf"
+  },
+  {
+   "hero": "zuus",
+   "lane": "中",
+   "phase": "对线期",
+   "text": "一级学弧形闪电压血线",
+   "why": "热评强调对线可打压制，一级用低耗蓝技能消耗",
+   "sources": [
+    "BV1yKGd6fEPa"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "eb7d85ff"
+  },
+  {
+   "hero": "zuus",
+   "lane": "中",
+   "phase": "对线期",
+   "text": "不越线换血，稳住补刀",
+   "why": "热评指出不激进、不走钢丝换血也能稳定c",
+   "sources": [
+    "BV1yKGd6fEPa"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "46d71173"
+  },
+  {
+   "hero": "winter_wyvern",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "一级学冰霜灼烧压人，别学冰箱",
+   "why": "热评称一手冰箱和灼烧让大哥舒服，灼烧是对线消耗核心",
+   "sources": [
+    "BV1TKGj64Ej1"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "6a462f9e"
+  },
+  {
+   "hero": "winter_wyvern",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "先垫巫师之刃再考虑A杖",
+   "why": "热评指出裸A无伤害加成，需巫师之刃垫底",
+   "sources": [
+    "BV1TKGj64Ej1"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "09fc0981"
+  },
+  {
+   "hero": "techies",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "一级学雷，先埋两颗再上线压人",
+   "why": "雷伤害翻倍，一级埋雷即可消耗对手血量",
+   "sources": [
+    "BV17vQSBPE8r"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "98c4314e"
+  },
+  {
+   "hero": "techies",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "对线期多埋雷封走位，别急着换血",
+   "why": "布雷能力被削弱，靠雷区限制对手走位更稳",
+   "sources": [
+    "BV17vQSBPE8r"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "2f59c2e2"
+  },
+  {
+   "hero": "tusk",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "一级学雪球，配合队友先手留人",
+   "why": "海民一级雪球是核心控制，能帮队友创造击杀机会",
+   "sources": [
+    "BV1tpTU6TEur"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "cde61af4"
+  },
+  {
+   "hero": "tusk",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "二级学冰封路径，封路换血",
+   "why": "冰封路径能限制敌方走位，配合雪球形成连招",
+   "sources": [
+    "BV1tpTU6TEur"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "d0239121"
+  },
+  {
+   "hero": "troll_warlord",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "一级学一技能，压线抢补刀",
+   "why": "弹幕提到-1，说明一级加点有争议，但巨魔一技能对线压制力强",
+   "sources": [
+    "BV1pTMh6EE9X"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "ce30794e"
+  },
+  {
+   "hero": "troll_warlord",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "三级前别越线，先补刀攒钱",
+   "why": "热评提到低分段容易被遛，对线期不宜激进",
+   "sources": [
+    "BV1pTMh6EE9X"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "d2f51ddf"
+  },
+  {
+   "hero": "witch_doctor",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "主加诅咒，见面就挂，别省蓝",
+   "why": "热评指出诅咒不可驱散，挂上骨灰直接半血，是巫医线上压制核心",
+   "sources": [
+    "BV1hhQEBvEUK"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "659e4b4a"
+  },
+  {
+   "hero": "witch_doctor",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "先出骨灰，诅咒加骨灰打半血",
+   "why": "热评明确诅咒骨灰一挂就是半血，小件优先级最高",
+   "sources": [
+    "BV1hhQEBvEUK"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "87fdf56a"
+  },
+  {
+   "hero": "pugna",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "一级学棒子压线，别急着换血",
+   "why": "棒子提供线上消耗与压制，一级对拼身板弱",
+   "sources": [
+    "BV1B5GH6xEwc"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "a5853d5b"
+  },
+  {
+   "hero": "pugna",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "先出披风，保人加血优先",
+   "why": "热评指出第一件披风可给队友加血保人",
+   "sources": [
+    "BV1B5GH6xEwc"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "0ecde2de"
+  },
+  {
+   "hero": "phantom_assassin",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "一级学模糊，别硬拼，先苟到二级",
+   "why": "对线不强，一级换血吃亏",
+   "sources": [
+    "BV1Nnn66CEWo"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "28247e90"
+  },
+  {
+   "hero": "phantom_assassin",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "先出补刀斧和穷鬼盾，别裸大件",
+   "why": "对线弱，需要小件撑线",
+   "sources": [
+    "BV1Nnn66CEWo"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "436c7faa"
+  },
+  {
+   "hero": "spectre",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "一级学荒芜，别学幽鬼之径",
+   "why": "弹幕与热评强调对线站不住，荒芜提供换血资本",
+   "sources": [
+    "BV1zgJY6VEQU"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "a9af7c10"
+  },
+  {
+   "hero": "spectre",
+   "lane": "下",
+   "phase": "对线期",
+   "text": "对面四号位弱就压线换血",
+   "why": "热评指出对手下路四号位不强势时可站线",
+   "sources": [
+    "BV1zgJY6VEQU"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "b79190e7"
+  },
+  {
+   "hero": "dazzle",
+   "lane": "下",
+   "phase": "对线期",
+   "text": "一级学毒，追着对面点，别怂",
+   "why": "热评提到戴泽对线要追击距离，低分局拉扯好容易一级单杀",
+   "sources": [
+    "BV1keLw6QEru"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "7e9bd4ac"
+  },
+  {
+   "hero": "dazzle",
+   "lane": "下",
+   "phase": "对线期",
+   "text": "先出鞋和魔棒，保证追击拉扯",
+   "why": "对线需要追击距离，移速和回复是基础",
+   "sources": [
+    "BV1keLw6QEru"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "ebf0564c"
+  },
+  {
+   "hero": "leshrac",
+   "lane": "中",
+   "phase": "对线期",
+   "text": "一级学撕裂大地压线抢二",
+   "why": "热评提到老鹿抬手慢，靠技能推线抢等级更稳",
+   "sources": [
+    "BV1mtXrBfEit"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "50342d3a"
+  },
+  {
+   "hero": "leshrac",
+   "lane": "中",
+   "phase": "中期",
+   "text": "先出蓝双刀再补输出",
+   "why": "热评明确无脑蓝双刀即可",
+   "sources": [
+    "BV1mtXrBfEit"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "485fda37"
+  },
+  {
+   "hero": "earth_spirit",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "一级学沟壑卡兵线，别急着换血",
+   "why": "四号位神牛靠沟壑控线，一级硬拼吃亏",
+   "sources": [
+    "BV15F9NBTEHS"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "f409b801"
+  },
+  {
+   "hero": "earth_spirit",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "三号位做好一打二准备，别指望牛头保",
+   "why": "热评指出四号位牛头常游走，线上少人",
+   "sources": [
+    "BV15F9NBTEHS"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "1908c183"
+  },
+  {
+   "hero": "antimage",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "一级学闪烁，别学削蓝",
+   "why": "闪烁保命补刀，削蓝一级收益低",
+   "sources": [
+    "BV1rHeu6UEr9"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "ebe220a6"
+  },
+  {
+   "hero": "antimage",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "先出补刀斧再憋狂战",
+   "why": "补刀斧提升打钱效率，狂战是核心",
+   "sources": [
+    "BV1rHeu6UEr9"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "c8a97dd1"
+  },
+  {
+   "hero": "axe",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "一级学反击螺旋，站兵线后压人",
+   "why": "斧王对线期靠反击螺旋反伤换血，一级压制能建立优势",
+   "sources": [
+    "BV1qEEb6tENV"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "7bd28437"
+  },
+  {
+   "hero": "axe",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "三级前别越线，苟住补刀",
+   "why": "斧王对线期炸线后整局没声音，前期稳住是底线",
+   "sources": [
+    "BV1qEEb6tENV"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "1c3160fe"
+  },
+  {
+   "hero": "slardar",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "一级学踩，压上去换血",
+   "why": "单对单强势，一级踩能打出压制",
+   "sources": [
+    "BV1gsDQBRENz"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "adf17624"
+  },
+  {
+   "hero": "slardar",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "先出护腕撑属性",
+   "why": "新手对线先补小件撑血撑属性",
+   "sources": [
+    "BV1gsDQBRENz"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "c1d9c69b"
+  },
+  {
+   "hero": "sven",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "一级学分裂，主升分裂推线",
+   "why": "弹幕与热评强调刷得快是核心，分裂让斯温对线期就能快速清线发育",
+   "sources": [
+    "BV1KmMy6tE1T"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "1d70b41c"
+  },
+  {
+   "hero": "sven",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "先出补刀斧，再补护腕",
+   "why": "热评提到刷得快才能体面，补刀斧提升打野与补刀效率",
+   "sources": [
+    "BV1KmMy6tE1T"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "b9987d5a"
+  },
+  {
+   "hero": "night_stalker",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "一级学被动，勾兵补刀别硬拼",
+   "why": "热评指出线优看四号位，硬耗吃亏",
+   "sources": [
+    "BV1sHXGB3EZR"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "03d10665"
+  },
+  {
+   "hero": "night_stalker",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "先出臂章，别裸大件",
+   "why": "热评认为臂章是版本答案",
+   "sources": [
+    "BV1sHXGB3EZR"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "7ce1f40c"
+  },
+  {
+   "hero": "shadow_demon",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "一级学关，先手关敌人接普攻消耗",
+   "why": "关能定住敌人让己方安全换血",
+   "sources": [
+    "BV1KFdFBUEu1"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "f289d423"
+  },
+  {
+   "hero": "shadow_demon",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "别乱关队友，关错会救敌人",
+   "why": "简介提醒一技能使用不当会伤害队友",
+   "sources": [
+    "BV1KFdFBUEu1"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "b283dfcc"
+  },
+  {
+   "hero": "doom_bringer",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "一级学炎刃，压人别怂",
+   "why": "炎刃提供高额持续伤害，一级对拼强势",
+   "sources": [
+    "BV1BpXbByEev"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "24d3a40a"
+  },
+  {
+   "hero": "doom_bringer",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "先出相位鞋，别裸点金",
+   "why": "相位提升移速和护甲，保证对线压制与逃生",
+   "sources": [
+    "BV1BpXbByEev"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "5bbb75ef"
+  },
+  {
+   "hero": "warlock",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "一级学暗影护符，别急着点地狱火",
+   "why": "新手先靠护符保命和消耗，避免操作失误",
+   "sources": [
+    "BV1EC411h7Gc"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "c6a37ac8"
+  },
+  {
+   "hero": "warlock",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "二级技能只点一级，糊弄对手",
+   "why": "热评建议省下技能点加黄点，提升属性",
+   "sources": [
+    "BV1EC411h7Gc"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "7287a50d"
+  },
+  {
+   "hero": "death_prophet",
+   "lane": "中",
+   "phase": "对线期",
+   "text": "一级学吸魂巫术，压线换血",
+   "why": "DP一级靠吸魂巫术持续吸血消耗，能压住近战中单",
+   "sources": [
+    "BV15RNB6mEFD"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "f8d6c37e"
+  },
+  {
+   "hero": "death_prophet",
+   "lane": "中",
+   "phase": "对线期",
+   "text": "三级前别越线，站兵线后吸",
+   "why": "DP前期身板脆，越线容易被抓",
+   "sources": [
+    "BV15RNB6mEFD"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "54c8f6e1"
+  },
+  {
+   "hero": "obsidian_destroyer",
+   "lane": "中",
+   "phase": "对线期",
+   "text": "一级学星体禁锢压血线",
+   "why": "热评提到黑鸟高爆发秒人，对线期需用技能压制",
+   "sources": [
+    "BV1EW4y1w7fr"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "3ce094f0"
+  },
+  {
+   "hero": "obsidian_destroyer",
+   "lane": "中",
+   "phase": "对线期",
+   "text": "三级后越线换血",
+   "why": "黑鸟技能伤害高，三级有等级优势可压制",
+   "sources": [
+    "BV1EW4y1w7fr"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "77c7e22b"
+  },
+  {
+   "hero": "crystal_maiden",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "一级学冰封禁制，配合队友压人",
+   "why": "热评关注冰女与松鼠、伐木机的分路配合，一级控制能帮助队友建立线上优势",
+   "sources": [
+    "BV1gdaq6GEXY"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "c54fd62c"
+  },
+  {
+   "hero": "crystal_maiden",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "先出魔杖和鞋，别裸秘法",
+   "why": "辅助冰女对线期需要续航和机动性，优先小件保证存活",
+   "sources": [
+    "BV1gdaq6GEXY"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "83043f03"
+  },
+  {
+   "hero": "silencer",
+   "lane": "中",
+   "phase": "对线期",
+   "text": "一级学智慧之刃压血，别越线",
+   "why": "热评指出核心沉默对线弱、被抓就死，需靠一技能消耗建立优势",
+   "sources": [
+    "BV1ajMw6UEbN"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "393a0777"
+  },
+  {
+   "hero": "silencer",
+   "lane": "中",
+   "phase": "对线期",
+   "text": "先出魔瓶保证续航再补小件",
+   "why": "沉默无逃生无回复，缺续航会被Lina类高爆发中单打崩",
+   "sources": [
+    "BV1ajMw6UEbN"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "7e6a096e"
+  },
+  {
+   "hero": "sand_king",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "一级学穿刺，压线消耗对手",
+   "why": "沙王属性成长低，靠技能压制弥补身板",
+   "sources": [
+    "BV1PxKK6GE5z"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "74acf616"
+  },
+  {
+   "hero": "sand_king",
+   "lane": "任意",
+   "phase": "中期",
+   "text": "先出跳刀，别裸强袭",
+   "why": "沙王定位是刺客，需要先手切入而非正面扛",
+   "sources": [
+    "BV1PxKK6GE5z"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "22ee3bab"
+  },
+  {
+   "hero": "chaos_knight",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "一级学拉，卡位拉回兵线换血",
+   "why": "拉提供自己和幻象输出环境，热评强调拉是关键控制",
+   "sources": [
+    "BV1dtaP6HEnk"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "e8af884b"
+  },
+  {
+   "hero": "chaos_knight",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "先出连击刀，靠减速黏人",
+   "why": "热评指出控制可靠连击刀减速补足",
+   "sources": [
+    "BV1dtaP6HEnk"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "cd8d51c7"
+  },
+  {
+   "hero": "slark",
+   "lane": "任意",
+   "phase": "中期",
+   "text": "出跳刀先手潮汐，别让他开大",
+   "why": "小鱼人需先手控住潮汐避免其大招反打",
+   "sources": [
+    "BV1zwHD68EJP"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "fe7924d6"
+  },
+  {
+   "hero": "slark",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "潮汐一级学锚击就绕后压，别硬拼",
+   "why": "热评指出小鱼人吃潮汐分，靠机动性躲锚击换血",
+   "sources": [
+    "BV1zwHD68EJP"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "92130a4b"
+  },
+  {
+   "hero": "storm_spirit",
+   "lane": "中",
+   "phase": "对线期",
+   "text": "普攻别断，用平A压火猫血线",
+   "why": "前期不靠技能，普攻持续消耗是核心压制手段",
+   "sources": [
+    "BV1miud6tEgC"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "2c90c5f2"
+  },
+  {
+   "hero": "storm_spirit",
+   "lane": "中",
+   "phase": "对线期",
+   "text": "残影卡火猫补刀位，逼他吃伤害",
+   "why": "残影配合普攻持续压血，火猫补刀就掉血",
+   "sources": [
+    "BV1miud6tEgC"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "eff1712b"
+  },
+  {
+   "hero": "alchemist",
+   "lane": "中",
+   "phase": "对线期",
+   "text": "一级学酸雾压线推兵",
+   "why": "酸雾快速清线并压制对手补刀",
+   "sources": [
+    "BV1NedzBfEyf"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "5fb502ee"
+  },
+  {
+   "hero": "alchemist",
+   "lane": "中",
+   "phase": "对线期",
+   "text": "三级前别越线换血",
+   "why": "炼金前期身板脆，越线容易被反杀",
+   "sources": [
+    "BV1NedzBfEyf"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "c5c0e5f1"
+  },
+  {
+   "hero": "ursa",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "一级学怒意狂击，压上去叠层换血",
+   "why": "怒意狂击叠层是拍拍对线换血的核心，一级就有压制力",
+   "sources": [
+    "BV1qEEb6tEJs"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "ef2de4d2"
+  },
+  {
+   "hero": "ursa",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "先出相位鞋，再补毒球",
+   "why": "相位鞋提供追击和越线能力，毒球减速让叠层更容易打满",
+   "sources": [
+    "BV1qEEb6tEJs"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "adfa5600"
+  },
+  {
+   "hero": "lone_druid",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "一级学召唤小熊，人熊一起压线",
+   "why": "小熊是主要输出，一级就有压制力",
+   "sources": [
+    "BV113Kp6RE78"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "9f9bb147"
+  },
+  {
+   "hero": "lone_druid",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "先出鞋和小件，别裸大件",
+   "why": "人熊都需要移速和基础属性过渡",
+   "sources": [
+    "BV113Kp6RE78"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "f477ec87"
+  },
+  {
+   "hero": "lycan",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "一级学小狼，靠小狼压线补刀",
+   "why": "热评提到小狼是核心，一级靠小狼建立线上优势",
+   "sources": [
+    "BV1ahxM65EsS"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "0f009c18"
+  },
+  {
+   "hero": "lycan",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "先出榴弹，见面就扔开打",
+   "why": "热评提到见到狼叔扔榴弹开启自动导航抽取攻击",
+   "sources": [
+    "BV1ahxM65EsS"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "7f10c211"
+  },
+  {
+   "hero": "primal_beast",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "设置自动攻击为从不",
+   "why": "避免自动攻击干扰连招与走位",
+   "sources": [
+    "BV1aTaY6bEd4"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "3ea1bb1a"
+  },
+  {
+   "hero": "primal_beast",
+   "lane": "任意",
+   "phase": "中期",
+   "text": "跳刀后接R再shift排WQS",
+   "why": "基础连招，确保技能顺序稳定",
+   "sources": [
+    "BV1aTaY6bEd4"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "e0aa29d2"
+  },
+  {
+   "hero": "mars",
+   "lane": "上",
+   "phase": "对线期",
+   "text": "一级学盾压线，别硬拼钢背",
+   "why": "钢背一级叠刺强，玛尔斯靠盾吃伤害换血",
+   "sources": [
+    "BV1n8DeBtEyU"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "e402f3ae"
+  },
+  {
+   "hero": "mars",
+   "lane": "上",
+   "phase": "对线期",
+   "text": "三级再越线换血，先出护腕",
+   "why": "三级盾+矛才有反打能力，护腕撑血线",
+   "sources": [
+    "BV1n8DeBtEyU"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "34953cc7"
+  },
+  {
+   "hero": "marci",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "先出圣化护服，别裸输出装",
+   "why": "热评一致认为该装备本身极强，与英雄无关，早出即可获得极强生存能力",
+   "sources": [
+    "BV1yMX4BjEGx"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "41e26fa4"
+  },
+  {
+   "hero": "marci",
+   "lane": "任意",
+   "phase": "中期",
+   "text": "有圣化护服就主动换血越线",
+   "why": "热评指出出该装备后很难被打死，可借此压制对手",
+   "sources": [
+    "BV1yMX4BjEGx"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "b3c5a10f"
+  },
+  {
+   "hero": "muerta",
+   "lane": "中",
+   "phase": "对线期",
+   "text": "一级学被动，补刀压人别越线",
+   "why": "热评强调对线拼不过，靠被动补刀消耗更稳",
+   "sources": [
+    "BV1wQXPBUEaP"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "78198d45"
+  },
+  {
+   "hero": "muerta",
+   "lane": "中",
+   "phase": "对线期",
+   "text": "先出骗钱刀加疯脸，别裸电锤",
+   "why": "热评建议放弃电锤，骗钱刀疯脸一起出更顺",
+   "sources": [
+    "BV1wQXPBUEaP"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "58a2548b"
+  },
+  {
+   "hero": "snapfire",
+   "lane": "中",
+   "phase": "对线期",
+   "text": "一级学消耗技能，压血线别硬拼",
+   "why": "热评称老太婆数值变态，中单对线期应以消耗为主",
+   "sources": [
+    "BV1Ui7C67Erj"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "0733fae7"
+  },
+  {
+   "hero": "snapfire",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "先出魔瓶或小蓝，保证蓝量续航",
+   "why": "老太婆靠技能消耗，续航决定对线压制力",
+   "sources": [
+    "BV1Ui7C67Erj"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "2d013e0c"
+  },
+  {
+   "hero": "storm_spirit",
+   "lane": "中",
+   "phase": "对线期",
+   "text": "一级学残影推线，别跟女王换血",
+   "why": "推线压制女王补刀节奏",
+   "sources": [
+    "BV1QtMQ6WEiz"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "e0794188"
+  },
+  {
+   "hero": "storm_spirit",
+   "lane": "中",
+   "phase": "对线期",
+   "text": "先出瓶子，用瓶顶毒镖伤害",
+   "why": "热评指出瓶子能抵消毒镖消耗",
+   "sources": [
+    "BV1QtMQ6WEiz"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "bc3977c3"
+  },
+  {
+   "hero": "necrolyte",
+   "lane": "中",
+   "phase": "对线期",
+   "text": "一级学死亡脉冲，站兵线后压血",
+   "why": "热评指出NEC经济虚，需靠对线压制建立优势",
+   "sources": [
+    "BV1wWpj63EYp"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "0c08f37b"
+  },
+  {
+   "hero": "necrolyte",
+   "lane": "中",
+   "phase": "对线期",
+   "text": "三级前别越线，用脉冲耗血",
+   "why": "NEC机动性差，越线易被小强等针对",
+   "sources": [
+    "BV1wWpj63EYp"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "293569d4"
+  },
+  {
+   "hero": "ringmaster",
+   "lane": "任意",
+   "phase": "任意",
+   "text": "新手先练辅助，别急着抢人头",
+   "why": "热评反映新手杀不了人，定位不清",
+   "sources": [
+    "BV1ZeKS69EjF"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "e9c0b2a6"
+  },
+  {
+   "hero": "ringmaster",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "站后排保队友，别被先手找到",
+   "why": "简介强调缩在安全地带辅助队友",
+   "sources": [
+    "BV1ZeKS69EjF"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "81445553"
+  },
+  {
+   "hero": "gyrocopter",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "一级学火箭弹幕，压线换血",
+   "why": "热评提到精灵飞机组合强，飞机前期靠弹幕打消耗",
+   "sources": [
+    "BV1uNdBBfEg7"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "bb6107e1"
+  },
+  {
+   "hero": "gyrocopter",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "先出魔瓶或小蓝续航",
+   "why": "飞机缺蓝，需保证弹幕和导弹的释放频率",
+   "sources": [
+    "BV1uNdBBfEg7"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "cfccff16"
+  },
+  {
+   "hero": "pangolier",
+   "lane": "中",
+   "phase": "对线期",
+   "text": "一级学盾冲压线抢二",
+   "why": "热评强调从头干到尾，滚滚靠盾冲换血抢等级",
+   "sources": [
+    "BV1RTDsBHEBj"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "444fb0e3"
+  },
+  {
+   "hero": "pangolier",
+   "lane": "中",
+   "phase": "对线期",
+   "text": "先出减甲球再补其他小件",
+   "why": "热评指出没减甲球5级秒不了远程兵",
+   "sources": [
+    "BV1RTDsBHEBj"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "d7e4081e"
+  },
+  {
+   "hero": "dawnbreaker",
+   "lane": "下",
+   "phase": "对线期",
+   "text": "一级学锤压血线，别越线硬拼",
+   "why": "大锤一级靠锤子消耗，越线容易被反打",
+   "sources": [
+    "BV1tddhBrESc"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "9f952b45"
+  },
+  {
+   "hero": "dawnbreaker",
+   "lane": "下",
+   "phase": "对线期",
+   "text": "先出魂戒再补鞋",
+   "why": "魂戒蓝量正好放两套技能，被动回血抵消掉血",
+   "sources": [
+    "BV1tddhBrESc"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "a51d5926"
+  },
+  {
+   "hero": "oracle",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "一级学一技能压人，别学三技能",
+   "why": "一技能可蓄力消耗，三技能前期收益低",
+   "sources": [
+    "BV15Ro1BaERs"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "3f1e2a3d"
+  },
+  {
+   "hero": "oracle",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "先出魔瓶或小蓝保证蓝量",
+   "why": "神谕者技能耗蓝高，缺蓝无法连招",
+   "sources": [
+    "BV15Ro1BaERs"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "e1754c97"
+  },
+  {
+   "hero": "bane",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "一级学一技能压人，别学睡",
+   "why": "一技能减攻60%且施法距离远，对线换血极强",
+   "sources": [
+    "BV1ZsT76eEpx"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "8d66d014"
+  },
+  {
+   "hero": "bane",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "用一技能反复消耗对面大哥",
+   "why": "减攻击让对手补刀和换血都吃亏",
+   "sources": [
+    "BV1ZsT76eEpx"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "e1b076d8"
+  },
+  {
+   "hero": "mirana",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "一级学流星贴身压人",
+   "why": "简介明确说想打赢对线就得拼，拼就要放流星，放流星要贴身肉搏",
+   "sources": [
+    "BV1tj4w6WEPJ"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "a7e1e1ac"
+  },
+  {
+   "hero": "mirana",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "贴身肉搏前先撑属性小件",
+   "why": "简介说贴身会吃平A和技能，所以必须撑属性",
+   "sources": [
+    "BV1tj4w6WEPJ"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "0af75f6e"
+  },
+  {
+   "hero": "visage",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "一级缩后吃经验，别用一技能换血",
+   "why": "热评指出辅助维萨吉没命石时对线弱，只能缩后c",
+   "sources": [
+    "BV1RpGy6EEYV"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "4ca6b526"
+  },
+  {
+   "hero": "visage",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "别想着用一技能和小龙压人",
+   "why": "热评明确说辅助维萨吉作用只有缩后c，一技能和小龙不实用",
+   "sources": [
+    "BV1RpGy6EEYV"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "cdccec19"
+  },
+  {
+   "hero": "weaver",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "一级学缩地，压线换血别怂",
+   "why": "缩地提供位移与伤害，一级对拼强",
+   "sources": [
+    "BV1sdQwB5E4m"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "46fa049f"
+  },
+  {
+   "hero": "weaver",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "先出魔棒和鞋，别裸大件",
+   "why": "对线续航与机动优先",
+   "sources": [
+    "BV1sdQwB5E4m"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "37dd6831"
+  },
+  {
+   "hero": "furion",
+   "lane": "中",
+   "phase": "对线期",
+   "text": "一级学传送，抢符后立刻回线补刀",
+   "why": "先知一级传送可抢赏金符并快速回线，不丢线上经验",
+   "sources": [
+    "BV1NDRXBhEF9"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "1cdc9a6a"
+  },
+  {
+   "hero": "furion",
+   "lane": "中",
+   "phase": "对线期",
+   "text": "三级前用树人卡位补刀，别越线",
+   "why": "树人可挡兵线、拉仇恨，本体脆弱不宜越线换血",
+   "sources": [
+    "BV1NDRXBhEF9"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "3b6fc425"
+  },
+  {
+   "hero": "lina",
+   "lane": "中",
+   "phase": "对线期",
+   "text": "一级学龙破斩压线推兵",
+   "why": "热评提到魔瓶起手，说明中单需要线权",
+   "sources": [
+    "BV1xpG36gEHv"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "b8885169"
+  },
+  {
+   "hero": "lina",
+   "lane": "中",
+   "phase": "对线期",
+   "text": "先出魔瓶再补挂件",
+   "why": "热评固定出装为魔瓶-挂件",
+   "sources": [
+    "BV1xpG36gEHv"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "7e450439"
+  },
+  {
+   "hero": "lion",
+   "lane": "中",
+   "phase": "对线期",
+   "text": "一级学穿刺，压线抢二",
+   "why": "热评指出莱恩怕五号位站后，中单需自己建立线权",
+   "sources": [
+    "BV1NJHG6eE9u"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "6d2ef3b2"
+  },
+  {
+   "hero": "lion",
+   "lane": "中",
+   "phase": "对线期",
+   "text": "二级穿刺加妖术换血",
+   "why": "双控连招是莱恩对线换血的核心",
+   "sources": [
+    "BV1NJHG6eE9u"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "02bb874e"
+  },
+  {
+   "hero": "faceless_void",
+   "lane": "任意",
+   "phase": "中期",
+   "text": "出大骨灰前先问队友要不要",
+   "why": "热评指出大骨灰会与中单或三四号位装备冲突",
+   "sources": [
+    "BV1FCaE6BENG"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "23635c24"
+  },
+  {
+   "hero": "faceless_void",
+   "lane": "任意",
+   "phase": "中期",
+   "text": "对面有分身就先别出大骨灰",
+   "why": "热评提到分身流行，大骨灰会被驱散",
+   "sources": [
+    "BV1FCaE6BENG"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "1f19ca5d"
+  },
+  {
+   "hero": "batrider",
+   "lane": "下",
+   "phase": "对线期",
+   "text": "三级前先苟住补刀，别主动换血",
+   "why": "劣势路三号位强度依赖四号位配合，前期硬拼容易送",
+   "sources": [
+    "BV1ibRuBdE6L"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "a7e6deb4"
+  },
+  {
+   "hero": "batrider",
+   "lane": "下",
+   "phase": "对线期",
+   "text": "先出护腕撑属性再考虑输出装",
+   "why": "劣势路对线压力大，小件撑肉才能站住线",
+   "sources": [
+    "BV1ibRuBdE6L"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "ea7f6ae9"
+  },
+  {
+   "hero": "spirit_breaker",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "一级学冲刺，直接压线换血",
+   "why": "裂魂人护甲高，一级对拼不吃亏",
+   "sources": [
+    "BV1okxu6REBx"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "593bf5d9"
+  },
+  {
+   "hero": "spirit_breaker",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "三级后越线撞人，配合四号位强杀",
+   "why": "冲刺加护甲优势，三级是换血窗口",
+   "sources": [
+    "BV1okxu6REBx"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "4c856e3f"
+  },
+  {
+   "hero": "enigma",
+   "lane": "上",
+   "phase": "对线期",
+   "text": "一级学黑洞之子，先苟到二级",
+   "why": "谜团一级弱，靠小谜团补刀换血",
+   "sources": [
+    "BV1TXTM6sEf1"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "2b46528f"
+  },
+  {
+   "hero": "enigma",
+   "lane": "上",
+   "phase": "对线期",
+   "text": "二级点憎恶，越线压人",
+   "why": "憎恶提供持续伤害和回复，可主动换血",
+   "sources": [
+    "BV1TXTM6sEf1"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "fb84ca17"
+  },
+  {
+   "hero": "bounty_hunter",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "一级开隐身去对面二塔后放眼",
+   "why": "提前掌握敌方支援与拉野路线，方便杀鸡断补给",
+   "sources": [
+    "BV15G3X6NE5r"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "333d3ec7"
+  },
+  {
+   "hero": "bounty_hunter",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "顺手点掉河道小吃街的灯",
+   "why": "破坏敌方视野，方便后续游走与杀鸡",
+   "sources": [
+    "BV15G3X6NE5r"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "8b6f9c8f"
+  },
+  {
+   "hero": "ancient_apparition",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "一级学冰霜漩涡压人",
+   "why": "利用减速和范围伤害压制敌方走位",
+   "sources": [
+    "BV1GaEJ6ZEv1"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "259bcf50"
+  },
+  {
+   "hero": "ancient_apparition",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "先出魔瓶或魂之灵瓮",
+   "why": "保证续航并强化对高回复敌人的克制",
+   "sources": [
+    "BV1GaEJ6ZEv1"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "314a38f5"
+  },
+  {
+   "hero": "dark_willow",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "一级学恐吓，压人别贪兵",
+   "why": "恐吓一级就有稳定消耗和减速，配合普攻能压制近战辅助",
+   "sources": [
+    "BV14Npc6ME1P"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "af23fd64"
+  },
+  {
+   "hero": "dark_willow",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "二级点诅咒王冠，找机会晕人",
+   "why": "王冠延迟眩晕配合恐吓可打出连控，二级是换血窗口",
+   "sources": [
+    "BV14Npc6ME1P"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "2da2d858"
+  },
+  {
+   "hero": "brewmaster",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "一级学醉拳，靠被动压人",
+   "why": "热评提到新手别点大招，前期靠小技能对线",
+   "sources": [
+    "BV1HPL76tEFZ"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "77bcdd56"
+  },
+  {
+   "hero": "brewmaster",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "先出圆盾和补刀斧",
+   "why": "三号位对线需要抗压补刀",
+   "sources": [
+    "BV1HPL76tEFZ"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "f93a1bbe"
+  },
+  {
+   "hero": "chen",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "别选陈，新手对线期会被打崩",
+   "why": "热评指出陈对新手不友好，出门容易被小鹿魅惑，前期无法正常对线",
+   "sources": [
+    "BV1BKTE6iEhd"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "00f34e12"
+  },
+  {
+   "hero": "chen",
+   "lane": "任意",
+   "phase": "任意",
+   "text": "新手别碰陈，操作门槛太高",
+   "why": "热评质疑新手入门英雄推荐，认为陈不适合新手",
+   "sources": [
+    "BV1BKTE6iEhd"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "64439e33"
+  },
+  {
+   "hero": "razor",
+   "lane": "中",
+   "phase": "对线期",
+   "text": "一级学抽攻，压出经验区",
+   "why": "热评提到对线杀穿火女，抽攻压制是核心",
+   "sources": [
+    "BV1XVM16zEZF"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "93c45a35"
+  },
+  {
+   "hero": "razor",
+   "lane": "中",
+   "phase": "对线期",
+   "text": "先出法克，续航打钱肉度全解决",
+   "why": "热评19赞明确法克适配大招减甲",
+   "sources": [
+    "BV1XVM16zEZF"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "ecfe1549"
+  },
+  {
+   "hero": "luna",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "一级学月光压血线，别站桩对A",
+   "why": "热评指出普攻输出占比低，靠月光法术伤害换血更划算",
+   "sources": [
+    "BV1KApy6bE1a"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "3c82e21c"
+  },
+  {
+   "hero": "luna",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "先出假腿疯脸，别裸大件",
+   "why": "热评给出假腿疯脸起手，保证对线续航与补刀",
+   "sources": [
+    "BV1KApy6bE1a"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "379c6ee6"
+  },
+  {
+   "hero": "storm_spirit",
+   "lane": "中",
+   "phase": "对线期",
+   "text": "一级用普攻加残影抢血",
+   "why": "火猫一级弱，可主动压制",
+   "sources": [
+    "BV1miud6tEgC"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "e8f665f8"
+  },
+  {
+   "hero": "storm_spirit",
+   "lane": "中",
+   "phase": "对线期",
+   "text": "普攻别停，用平A压火猫血线",
+   "why": "视频核心：前期不靠技能，普攻持续消耗",
+   "sources": [
+    "BV1miud6tEgC"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "ec416541"
+  },
+  {
+   "hero": "ogre_magi",
+   "lane": "上",
+   "phase": "对线期",
+   "text": "一级靠身板压人，别怂",
+   "why": "热评提到身材强，能度过对线期",
+   "sources": [
+    "BV1Ygj661EtN"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "3d38be8e"
+  },
+  {
+   "hero": "ogre_magi",
+   "lane": "上",
+   "phase": "对线期",
+   "text": "先出点金，别先堆蓝量",
+   "why": "热评指出刚需点金，节奏慢",
+   "sources": [
+    "BV1Ygj661EtN"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "e8e65f52"
+  },
+  {
+   "hero": "magnataur",
+   "lane": "中",
+   "phase": "对线期",
+   "text": "五树枝吃树出门，属性拉满",
+   "why": "对线期属性优先，保证补刀和换血",
+   "sources": [
+    "BV1KCKt6uE53"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "6724b245"
+  },
+  {
+   "hero": "magnataur",
+   "lane": "中",
+   "phase": "对线期",
+   "text": "瓶子必出，再补护腕或魔棒",
+   "why": "应对高技能消耗，保证续航",
+   "sources": [
+    "BV1KCKt6uE53"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "41f89b3c"
+  },
+  {
+   "hero": "enchantress",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "一级学魅惑，招大野压线",
+   "why": "五号位小鹿前期战力在野怪，一级魅惑招强力野怪可压制对线",
+   "sources": [
+    "BV1txNm6bEKL"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "d8599d8d"
+  },
+  {
+   "hero": "enchantress",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "三级前拉野消耗，别硬拼",
+   "why": "三级前本体弱，靠野怪牵制消耗，避免正面换血",
+   "sources": [
+    "BV1txNm6bEKL"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "6626caf6"
+  },
+  {
+   "hero": "dark_seer",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "一级学套子压人，别苟",
+   "why": "套子提供伤害和减速，一级换血强",
+   "sources": [
+    "BV1MCREBMES9"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "b1435502"
+  },
+  {
+   "hero": "dark_seer",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "先出假腿双挂件刷钱",
+   "why": "热评指出假腿双挂件刷得很快",
+   "sources": [
+    "BV1MCREBMES9"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "980adbde"
+  },
+  {
+   "hero": "monkey_king",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "一级学被动，靠普攻压人叠被动",
+   "why": "热评指出对手会刻意拉扯不让大圣打出被动，说明被动是核心压制手段，一级就要靠普攻…",
+   "sources": [
+    "BV1U8QvBgEs7"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "7e6b61ac"
+  },
+  {
+   "hero": "monkey_king",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "打出被动后立刻跟技能追打",
+   "why": "热评提到好不容易打出被动人也走远了，说明被动触发后要马上跟进输出",
+   "sources": [
+    "BV1U8QvBgEs7"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "1d750297"
+  },
+  {
+   "hero": "sven",
+   "lane": "任意",
+   "phase": "对线期",
+   "text": "先出假腿魂戒，别裸跳",
+   "why": "热评明确先假腿魂戒再跳刀，保证蓝量和续航",
+   "sources": [
+    "BV1M6eq6gEfM"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "b12a5c9f"
+  },
+  {
+   "hero": "sven",
+   "lane": "任意",
+   "phase": "中期",
+   "text": "十五分钟到点买魔晶",
+   "why": "热评指出1400魔晶按发育情况15分钟买",
+   "sources": [
+    "BV1M6eq6gEfM"
+   ],
+   "score": 2.0,
+   "evidence": "llm",
+   "id": "89861c43"
+  }
+ ],
+ "builds": [
+  {
+   "hero": "legion_commander",
+   "items": [
+    "闪烁匕首",
+    "黑皇杖",
+    "阿哈利姆神杖"
+   ],
+   "skill": "主加混剑术和强攻，前期难打可先加两级强攻，不学三技能，之后补满"
+  },
+  {
+   "hero": "drow_ranger",
+   "items": [
+    "疯狂面具",
+    "幻影斧",
+    "黑皇杖",
+    "闪烁匕首"
+   ],
+   "skill": "主三技能，有大点大，利用大招打野稳定触发刷钱"
+  }
+ ]
+}

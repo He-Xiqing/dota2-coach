@@ -1,0 +1,22 @@
+{
+  "code": 0,
+  "data": {
+    "replies": [
+      {
+        "like": 120,
+        "content": { "message": "剑圣先出相位鞋，别裸狂战，对线太弱了" },
+        "member": { "uname": "a" }
+      },
+      {
+        "like": 3,
+        "content": { "message": "这期抽奖链接在哪里" },
+        "member": { "uname": "b" }
+      },
+      {
+        "like": 42,
+        "content": { "message": "中路记得 3 分钟去抢符，别在线上硬拼" },
+        "member": { "uname": "c" }
+      }
+    ]
+  }
+}

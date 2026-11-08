@@ -1,0 +1,114 @@
+# dota2-coach 配置（示例）
+# 首次运行时程序会读取本文件作为默认值；在设置页保存后会生成你自己的 config.toml。
+# 字符串用单引号时反斜杠不会被转义（Windows 路径推荐这样写）。
+
+[app]
+language = "zh-CN"
+data_dir = "data"
+log_dir = "logs"
+
+[gsi]
+host = "127.0.0.1"
+port = 31982
+# 把原始报文写入 logs/gsi_raw/<matchid>-<session>.jsonl，用于离线回放与排错
+log_raw = true
+# 原始报文最小写入间隔（秒），避免 10Hz 把磁盘写爆
+min_log_interval = 0.2
+
+[game]
+# 改成你自己的 Steam / Dota 2 安装路径；留空时相关辅助功能会提示找不到游戏
+dota_path = 'D:\SteamLibrary\steamapps\common\dota 2 beta'
+steam_path = 'C:\Program Files (x86)\Steam'
+
+[theme]
+# 主界面背景图（绝对路径或相对程序目录）；留空 = 默认浅色
+wallpaper = ""
+wallpaper_dim = 0.55
+
+[overlay]
+enabled = true
+opacity = 0.90
+# 模糊状态透明度（平时），语音播报后 10 秒恢复上面的清晰状态
+dim_opacity = 0.45
+# 点击穿透：卡片不挡鼠标；想拖动卡片就改成 false
+click_through = true
+
+[llm]
+# 没有 DeepSeek key 时保持 false，全部走本地模板
+enabled = false
+model = "deepseek-chat"
+base_url = "https://api.deepseek.com/v1"
+
+[vision]
+# 英雄图标/卡面模板，由 scripts/fetch_hero_icons.ps1 下载
+icons_dir = "data/hero_icons"
+cards_dir = "data/hero_cards"
+heroes_json = "data/heroes.json"
+# 模板匹配阈值：低于 min_score 视为未识别；与第二名的差小于 min_gap 也视为不可信
+match_min_score = 0.55
+match_min_gap = 0.02
+
+[voice]
+# 语音包：xiaoxiao / xiaoyi / yunxi / yunjian / yunyang / aria / custom
+# 一般保持默认即可：程序会让语音包跟随界面语言（设置页可改）
+pack = "xiaoxiao"
+# 游戏正在出声时，等它说完再朗读
+wait_game_voice = true
+wait_max = 4.0
+
+# 朗读后端：auto = 先试系统 SAPI，失败再用在线 edge-tts；也可强制 sapi / edge / beep
+# 注：本机实测系统语音引擎坏了（SAPI 报 0x8004503A），所以默认走在线合成
+backend = "auto"
+# 在线朗读的音色（需先 pip install edge-tts）；留空会自动选当前语言的音色
+edge_voice = "zh-CN-XiaoxiaoNeural"
+# 是否朗读文字；false = 只响提示音、不念话
+enabled = true
+speak = true
+rate = 0
+volume = 100
+# 同一类提示至少间隔多少秒再念一次，避免刷屏
+min_interval = 8.0
+# 朗读前是否播放提示音
+beep = true
+
+[guides]
+# 从 B 站攻略生成的本地知识库（scripts/fetch_guides.py 产出 data/guides/<patch>.json）
+enabled = true
+dir = "data/guides"
+# 每期最多保留多少条提示
+max_tips = 12
+# 建议多少天更新一次（scripts/schedule_guides.ps1 用）
+refresh_days = 7
+# 音频转写：off / base / small（需要 faster-whisper，默认关，避免第一次就下载模型）
+asr = "off"
+asr_max_videos = 3
+
+[assist]
+# 辅助功能开关（设置页「辅助」可改）
+# 符点/神龛/莲花刷新前的播报
+rune_alerts = true
+# 对局中顶部头像下显示英雄名字
+name_strip = true
+# 10 分钟后团战 / 小地图预警
+fight_alerts = true
+# 对线期分路 / 对位 / 补给提醒
+lane_alerts = true
+
+[hotkeys]
+# 全局快捷键（F1–F12），被其它软件占用时设置里会提示
+toggle_card = "F8"
+test_voice = "F9"
+
+# YouTube 攻略源（可选）。需要能访问 YouTube 的网络；直连不通时填代理。
+[youtube]
+enabled = false
+proxy = ""
+languages = ["en"]
+min_views = 5000
+
+[minimap]
+# auto = 自动定位；left / right = 手动指定小地图在左下角还是右下角
+side = "auto"
+size_percent = 100
+offset_x = 0
+offset_y = 0
