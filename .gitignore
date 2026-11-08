@@ -30,3 +30,4 @@ data/_items_raw.json
 # PyInstaller 生成
 *.spec
 .tmp/
+release/
