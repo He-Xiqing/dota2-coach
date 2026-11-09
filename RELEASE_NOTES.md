@@ -1,36 +1,31 @@
-# v0.1.0 — 首个公开版本 / First public release
+# v0.1.1 — 更轻、更准 / Leaner and more accurate
 
 DOTA2 入门教练：面向新手的 Dota 2 实时教练（外部 Overlay）。
 DOTA2 GETTING STARTED Coach: a real-time Dota 2 coach overlay for beginners.
 
-## 亮点 / Highlights
+## 这一版 / In this release
 
-- **开局识别 10 个英雄**：截图顶部英雄栏，不需要 Dota Plus。
-- **九语言界面 + 九语言朗读**：简体中文 / 繁體中文 / English / Français / Русский / Deutsch / Português / Español / Türkçe，切换后主窗口即时生效。
-- **对线教练**：分路、对位强弱、血量/蓝量、6 级、眼位、夜战与符点提醒。
-- **单件出装**：每次只推一件，附理由、用法与加点；买完自动换下一件。
-- **团战预警**：10 分钟后看小地图，红点消失/聚集/低血时提醒怎么打。
-- **赛后复盘**：1–3 条可执行建议 + 一句鼓励，辅助英雄不再被说“补刀少”。
-- **小地图自适应**：左下/右下、任意缩放；自动失败可在设置里手动指定位置与大小。
-
-- **All 10 heroes at game start** from a top-bar screenshot — no Dota Plus needed.
-- **9 UI + 9 spoken languages**, switching instantly without restart.
-- **Lane coaching**: lane, matchup strength, HP/mana, level 6, wards, night, runes.
-- **One item at a time** with reason, usage and skill build.
-- **Fight alerts** after 10 minutes from the minimap.
-- **Post-game review** with 1–3 fixes and encouragement.
-- **Adaptive minimap**: any corner and scale, with manual fallback.
+- **体积缩小**：安装包从 106 MB 降到 88 MB，解压后目录也明显变小；功能一项没少。
+  OpenCV 改用 headless 构建，去掉未使用的 ffmpeg/Qt 换行库、Qt 翻译与 QML 等。
+  Packages dropped from 106 MB to 88 MB with no feature removed.
+- **1080p 识别修复**：顶部英雄栏改为按“队伍色条”定位，不再依赖写死的比例或“自己是第 1 张卡”的假设；
+  1024–2560 宽度下同一张截图均能认满 10 个英雄。
+  Hero bar is now located by the team color strips, independent of DPI/HUD scaling.
+- **打包更干净**：安装包里只带 `config.example.toml`（不再带本机 `config.toml`）、LICENSE 与说明；
+  运行时不再携带 Valve 原始文本。
+- 其余功能与 v0.1.0 一致：九语言界面与朗读、对线教练、单件出装、团战预警、赛后复盘、小地图自适应。
 
 ## 安装 / Install
 
-1. 下载 `Dota2Coach-v0.1.0-win64.zip` 并解压（或只下载 Card 版）。
+1. 下载 `Dota2Coach-v0.1.1-win64.zip` 并解压（或只下载 Card 版）。
 2. 双击 `Dota2Coach.exe`；首次运行会在旁边生成 `config.toml`。
 3. 按 `docs/install.md` 或 README 的“快速开始”复制 GSI 配置到游戏目录，并下载英雄头像（`scripts/fetch_hero_icons.ps1`，约 9MB）。
 4. 重启 Dota 2，进对局即可看到置顶卡片。
 
-## 说明 / Notes
+## 校验 / Checksums
 
-- 只读取官方 GSI 与你自己屏幕的截图；不读内存、不注入、不模拟按键。
-- 语音使用在线 edge-tts（可关闭）；离线时退回提示音。
-- 非 Valve 官方产品，请遵守 Steam 与 Dota 2 服务条款。
-- 这是首个公开版本，欢迎在 Issues 反馈问题与建议。
+见 `SHA256SUMS.txt`。 / See `SHA256SUMS.txt`.
+
+## 旧版本 / Previous
+
+- v0.1.0：首个公开版本（九语言、对线/出装/团战/复盘、小地图自适应）。
