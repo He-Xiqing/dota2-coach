@@ -668,6 +668,71 @@ def detect_panel_cells(image: np.ndarray) -> dict[tuple[int, int], tuple[int, in
     return cells
 
 
+def _column_runs(mask: np.ndarray) -> list[tuple[int, int]]:
+    """一维布尔数组里的连续 True 段，返回 (起点, 长度)。"""
+    runs: list[tuple[int, int]] = []
+    start = None
+    for index, value in enumerate(mask):
+        if value and start is None:
+            start = index
+        elif not value and start is not None:
+            runs.append((start, index - start))
+            start = None
+    if start is not None:
+        runs.append((start, len(mask) - start))
+    return runs
+
+
+def detect_bar_strips(image: np.ndarray) -> list[tuple[int, int, int, int]]:
+    """按顶部彩色队伍条定位 10 张英雄卡（不依赖 DPI/UI 缩放）。
+
+    每张卡上方有一条饱和色带；色带是整栏里唯一稳定的高饱和横向元素，
+    因此按列找色带、再按色带高度起算卡面，比轮廓/模板更耐缩放。
+    失败返回空列表（调用方退回旧的轮廓/比例方案）。
+    """
+    height, width = image.shape[:2]
+    band_height = max(10, int(round(height * 0.06)))
+    hsv = cv2.cvtColor(image[:band_height, :], cv2.COLOR_BGR2HSV)
+    mask = ((hsv[:, :, 1] > 80) & (hsv[:, :, 2] > 70)).any(axis=0)
+
+    segments = [run for run in _column_runs(mask) if run[1] >= max(8, width * 0.008)]
+    if not segments:
+        return []
+    merged: list[tuple[int, int]] = []
+    for start, length in segments:
+        if merged and start - (merged[-1][0] + merged[-1][1]) <= max(3, width * 0.004):
+            merged[-1] = (merged[-1][0], start + length - merged[-1][0])
+        else:
+            merged.append((start, length))
+    merged = [run for run in merged if width * 0.015 <= run[1] <= width * 0.12]
+    if len(merged) != 10:
+        return []
+
+    ordered = sorted(merged, key=lambda run: run[0])
+    widths = sorted(run[1] for run in ordered)
+    card_width = widths[len(widths) // 2]
+    if any(abs(run[1] - card_width) > card_width * 0.35 for run in ordered):
+        return []
+    for group in (ordered[:5], ordered[5:]):
+        steps = [group[i + 1][0] - group[i][0] for i in range(4)]
+        if max(steps) - min(steps) > max(4, card_width * 0.15):
+            return []
+
+    card_height = int(round(card_width / 1.5))
+    cells: list[tuple[int, int, int, int]] = []
+    for start, length in ordered:
+        columns = hsv[:, start:start + length]
+        strip = ((columns[:, :, 1] > 80) & (columns[:, :, 2] > 70))
+        coverage = strip.mean(axis=1)
+        top = 0
+        for row, value in enumerate(coverage):
+            if value >= 0.75:
+                top = row
+                break
+        cells.append((start, top, min(length, card_width), card_height))
+    return cells
+
+
 def detect_topbar_cells(image: np.ndarray) -> list[tuple[int, int, int, int]]:
     """顶部英雄栏的 10 张卡（从左到右）。失败返回空列表。"""
     height, width = image.shape[:2]
@@ -742,8 +807,19 @@ def identify_topbar(
     min_gap: float = 0.02,
 ) -> dict[str, list[HeroMatch]]:
     """识别顶部英雄栏：前 5 个我方、后 5 个敌方。"""
-    boxes = detect_topbar_cells(image)
+    strips = detect_bar_strips(image)
+    boxes = strips or detect_topbar_cells(image)
     if not boxes:
         return {"ally": [], "enemy": []}
     matches = [matcher.identify(image, box, "card", min_score, min_gap) for box in boxes]
+    if strips:
+        # 高分辨率缩到 720p 时个别卡面细节变少，分数会贴近阈值；
+        # 色条定位可信，对漏识别再放宽一点重试，避免整栏只认出一半。
+        relaxed = max(0.45, min_score - 0.08)
+        for index, match in enumerate(matches):
+            if match.label != "未识别":
+                continue
+            retry = matcher.identify(image, boxes[index], "card", relaxed, min_gap)
+            if retry.label != "未识别":
+                matches[index] = retry
     return {"ally": matches[:5], "enemy": matches[5:]}
